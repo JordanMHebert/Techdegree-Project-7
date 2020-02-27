@@ -69,3 +69,19 @@ h1{
   grid-row-start: 1;
   grid-row-end: 2;
 }
+
+/* styling for the navigation at 320px*/
+
+nav {
+  background-color: #4B4D72;
+  display: grid;
+  grid-template-columns: repeat(4, .15fr);
+  grid-template-rows: auto;
+  padding-left: 85px;
+}
+
+nav img{
+  max-width: 1em;
+  margin-top: .6em;
+  margin-bottom: .2em;
+}
