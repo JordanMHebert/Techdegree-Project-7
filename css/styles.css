@@ -38,8 +38,8 @@ h1{
 }
 
 .vl {
-  border-left: 0.128em solid white;
-  height: 2em;
+  border-left: 0.120em solid #483d8b;
+  height: 1.6em;
   position: absolute;
   left: 61%;
   margin-left: -0.1875em;
@@ -61,6 +61,8 @@ h1{
   color: white;
   font-size: .72em;
   font-family: 'Open Sans';
+  font-weight: lighter;
+  letter-spacing: .5px;
   margin-top: 17%;
   grid-column-start: 4;
   grid-column-end: 5;
