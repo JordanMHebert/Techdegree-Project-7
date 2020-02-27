@@ -7,6 +7,7 @@
     <title>YourApp</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/toggleSwitches.css" rel="stylesheet" />
   </head>
 
   <!-- opening body tag -->
@@ -190,7 +191,11 @@
 
         <!-- new member 1 -->
         <div class="members-container">
-          <img src="images/member-1.jpg" class="profile-image" />
+          <img
+            src="images/member-1.jpg"
+            class="profile-image"
+            alt="profile picture of user"
+          />
           <div class="members-text">
             <p>
               Victoria Chambers
@@ -204,7 +209,11 @@
 
         <!-- new member 2 -->
         <div class="members-container">
-          <img src="images/member-2.jpg" class="profile-image" />
+          <img
+            src="images/member-2.jpg"
+            class="profile-image"
+            alt="profile picture of user"
+          />
           <div class="members-text">
             <p>
               Dale Byrd
@@ -218,7 +227,11 @@
 
         <!-- new member 3 -->
         <div class="members-container">
-          <img src="images/member-3.jpg" class="profile-image" />
+          <img
+            src="images/member-3.jpg"
+            class="profile-image"
+            alt="profile picture of user"
+          />
           <div class="members-text">
             <p>
               Dawn Wood
@@ -232,7 +245,11 @@
 
         <!-- new member 4 -->
         <div class="members-container">
-          <img src="images/member-4.jpg" class="profile-image" />
+          <img
+            src="images/member-4.jpg"
+            class="profile-image"
+            alt="profile picture of user"
+          />
           <div class="members-text">
             <p>
               Dan Oliver
@@ -251,7 +268,11 @@
 
         <!-- recent activity member 1 -->
         <div class="members-container">
-          <img src="images/member-1.jpg" class="profile-image" />
+          <img
+            src="images/member-1.jpg"
+            class="profile-image"
+            alt="profile picture of user"
+          />
           <div class="members-text">
             <p>
               Victoria Chambers commented on YourApp's SEO Tips
@@ -267,7 +288,11 @@
 
         <!-- recent activity member 2 -->
         <div class="members-container">
-          <img src="images/member-2.jpg" class="profile-image" />
+          <img
+            src="images/member-2.jpg"
+            class="profile-image"
+            alt="profile picture of user"
+          />
           <div class="members-text">
             <p>
               Dale Byrd like the post Facebook's Changes for 2016
@@ -283,7 +308,11 @@
 
         <!-- recent activity member 3 -->
         <div class="members-container">
-          <img src="images/member-3.jpg" class="profile-image" />
+          <img
+            src="images/member-3.jpg"
+            class="profile-image"
+            alt="profile picture of user"
+          />
           <div class="members-text">
             <p>
               Dawn Wood commented on Facebook's Changes for 2016
@@ -299,7 +328,11 @@
 
         <!-- recent activity member 4 -->
         <div class="members-container">
-          <img src="images/member-4.jpg" class="profile-image" />
+          <img
+            src="images/member-4.jpg"
+            class="profile-image"
+            alt="profile picture of user"
+          />
           <div class="members-text">
             <p>
               Dan Oliver posted YourApp's SEO Tips
@@ -311,6 +344,70 @@
           <p>
             >
           </p>
+        </div>
+      </section>
+
+      <!-- messaging -->
+
+      <!-- messaging widget -->
+      <section class="message">
+        <h3>Message User</h3>
+
+        <form class="widget-container">
+          <input
+            type="text"
+            placeholder="Search for user"
+            class="form-field"
+            id="userField"
+          />
+          <textarea
+            placeholder="Message for user"
+            class="form-area"
+            id="messageField"
+          ></textarea>
+          <button class="button-primary" id="send">Send</button>
+        </form>
+      </section>
+
+      <!-- settings -->
+
+      <!-- local settings widget -->
+      <section class="settings">
+        <h3>Settings</h3>
+
+        <!-- custom CSS toggle code-->
+        <div class="message-fields">
+          <div class="toggles">
+            <h3>Send Email Notifications</h3>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+
+          <!-- custom CSS toggle code-->
+          <div class="toggles">
+            <h3>Set Profile to Public</h3>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <!-- time zones drop down -->
+        <select class="form-field" id="timezone">
+          <option disabled selected>Select a Timezone</option>
+          <option>Eastern</option>
+          <option>Central</option>
+          <option>Mountain</option>
+          <option>Pacific</option>
+          <!-- more options -->
+        </select>
+
+        <!-- settings buttons -->
+        <div class="settings-button">
+          <button class="button-primary" id="save">Save</button>
+          <button class="button-disabled" id="cancel">Cancel</button>
         </div>
       </section>
     </main>
