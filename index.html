@@ -16,9 +16,11 @@
     <!-- header -->
     <header>
       <!-- name of app -->
-      <h1>YourApp</h1>
+      <h1>
+        <span class="your">Your</span>App<span class="tradeMark">&trade;</span>
+      </h1>
       <!-- div for bell icon -->
-      <div class="bell icon">
+      <div class="bell-icon">
         <!-- inline optimized svg icon -->
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
           <path
@@ -27,12 +29,24 @@
           />
         </svg>
       </div>
+      <style>
+        .vl {
+          border-left: 0.128em solid white;
+          height: 1.5em;
+        }
+      </style>
+
+      <div class="vl"></div>
       <!-- div for notifications -->
       <div class="notifications"></div>
       <!-- profile image -->
-      <img src="images/member-2.jpg" alt="profile picture of user" />
+      <img
+        src="images/member-2.jpg"
+        alt="profile picture of user"
+        class="signedInUserProfilePic"
+      />
       <!-- users name -->
-      <h3>Josh Sullivan</h3>
+      <h3 class="signedInUserName">Josh Sullivan</h3>
     </header>
 
     <!-- navigation section  -->
