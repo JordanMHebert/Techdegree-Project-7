@@ -1,28 +1,28 @@
-
 /* setting up css grid layout */
 body {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
   grid-template-areas:
-  "header"
-  "navigation"
-  "main";
-  }
+    "header"
+    "navigation"
+    "main";
+}
 
-  header {
+header {
   grid-area: header;
-  }
+}
 
-  navigation {
+navigation {
   grid-area: navigation;
-  }
+}
 
-  main {grid-area: main;
+main {
+  grid-area: main;
 }
 
 /* styling for the header at 320px*/
-header{
+header {
   background-color: #737ABF;
   margin: 0px 0px;
   display: grid;
@@ -30,7 +30,7 @@ header{
   grid-template-rows: auto;
 }
 
-h1{
+h1 {
   color: white;
   font-size: 1em;
   font-family: 'Open Sans';
@@ -40,16 +40,16 @@ h1{
   grid-column-end: 2;
 }
 
-.your{
+.your {
   font-weight: bold;
 }
 
-.tradeMark{
+.tradeMark {
   font-size: .9em;
   font-weight: 50;
 }
 
-.bell-icon{
+.bell-icon {
   max-width: 1.2em;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -67,7 +67,7 @@ h1{
   top: 3.6%;
 }
 
-.signedInUserProfilePic{
+.signedInUserProfilePic {
   max-width: 1.6em;
   max-height: 1.8em;
   border-radius: 50%;
@@ -78,7 +78,7 @@ h1{
   grid-row-end: 2;
 }
 
-.signedInUserName{
+.signedInUserName {
   color: white;
   font-size: .72em;
   font-family: 'Open Sans';
@@ -100,38 +100,40 @@ nav {
   padding-left: 5.3125em;
 }
 
-nav img{
+nav img {
   max-width: 1em;
   margin-top: .6em;
   margin-bottom: .2em;
 }
 
-main{
+main {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
 }
 
 /* styling for the dashboard and search bar at 320px*/
-.main-header{
+.main-header {
   display: grid;
   grid-template-columns: .5fr 2fr;
   grid-template-rows: auto;
   grid-gap: .8em;
 }
 
-.headline{
-  margin-left: 0.625em;
+.headline {
+  font-size: .9em;
 }
 
-.main-header-search{
-margin-top: 1.5em;
-margin-left: .3em;
+.main-header-search {
+  padding-top: .5em;
+  padding-left: 4.5em;
+  border: .0625em solid #dcdcdc;
+  margin-bottom: .625em;
+  padding-bottom: .3125em;
 }
 
 /* styling for the alert bar at 320px */
-
-.alert{
+.alert {
   background-color: #737ABF;
   color: white;
   font-size: .8em;
@@ -139,63 +141,86 @@ margin-left: .3em;
   letter-spacing: .07em;
 }
 
-.alertText{
+.alertText {
   margin-left: .5em;
 }
 
 /*  styling for the traffic at 320px  */
-
-.traffic-header{
+.traffic-header {
   display: grid;
   grid-template-columns: .5fr 4fr;
   grid-template-rows: auto;
 }
 
-.traffic-header h3{
+.traffic-header h3 {
   grid-column-start: 1;
   grid-column-end: 2;
 }
 
-.traffic-nav{
+.traffic-nav {
   display: grid;
-  grid-template-columns: 63px 55px 70px 5px;
+  grid-template-columns: 50px 50px 55px 50px;
   grid-column-start: 2;
   grid-column-end: 3;
   margin-left: -1.25em;
   font-size: .8em;
+  margin-left: .3125em;
   margin-top: 1.25em;
+}
+
+.traffic-nav-link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: .8em;
+  font-family: 'Open Sans';
+  letter-spacing: .07em;
+  margin-right: .3125em;
+}
+
+.weekly {
+  background-color: #94CBAD;
+  margin-left: -.4375em;
+  margin-right: .5em;
+  border: .1875em solid #94CBAD;
+  border-radius: 4.6875em;
+  height: 1.5em;
+  width: 5em;
+  color: white;
+  margin-top: -.125em;
+  font-weight: bold;
+  letter-spacing: .08em;
 }
 
 .lineGraphPlaceHolder,
 .barGraphPlaceHolder,
-.doughnutGraphPlaceHolder{
-width:100%;
+.doughnutGraphPlaceHolder {
+  width: 100%;
 }
 
 /*  styling for the daily traffic at 320px  */
-
 .daily h3,
-.mobile h3{
+.mobile h3 {
   margin-top: .625em;
   margin-bottom: .625em;
 }
 
 /*  styling for the social stats at 320px  */
-
-.socialStatusSection{
+.socialStatusSection {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
+  grid-gap: .5em;
 }
 
-.social-text{
+.social-text {
   font-size: .8em;
   font-family: 'Open Sans';
   letter-spacing: .03em;
-  margin-left: -30px;
+  margin-left: -1.5625em;
 }
 
-.social-numbers{
+.social-numbers {
   font-size: 1.5em;
   font-family: 'Open Sans';
   letter-spacing: .03em;
@@ -204,71 +229,321 @@ width:100%;
 
 .twitter-container,
 .googlePlus-container,
-.facebook-container{
+.facebook-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
+  border: .0625em solid #dcdcdc;
+  border-radius: .3125em;
+}
+
+.social-image-twitter path,
+.social-image-googlePlus path {
+  fill: white;
+}
+
+.social-image path {
+  fill: white;
 }
 
 .social-image{
-  margin-left: 3.8em;
+  margin-left: 2.5em;
   margin-top: .5em;
+  width: 3.44em;
+  height: 3.125em;
+  background-color: rgba(112, 112, 164, 1);
+  border: .1875em solid rgba(112, 112, 164, 1);
+  border-radius: 50%;
 }
 
 .social-image-twitter,
-.social-image-googlePlus{
-  margin-top: 1.25em;
-  margin-left: 4.8em;
+.social-image-googlePlus {
+  margin-top: .5em;
+  margin-left: 2.8em;
+  width: 1.5625em;
+  height: 1.5625em;
+  background-color: rgba(112, 112, 164, 1);
+  border: 1em solid rgba(112, 112, 164, 1);
+  border-radius: 50%;
 }
 
-.social-image-twitter,
-.social-image-googlePlus{
-  max-width: 2em;
+/*  styling for both the new members and recent activity sections at 320px  */
+.newMembers,
+.recentActivity {
+  display: grid;
+  border: .0625em solid #dcdcdc;
+  border-radius: .3125em;
 }
+
+.newMembers h3,
+.recentActivity h3 {
+  margin-left: 5em;
+}
+
+.newMembers-container,
+.recentActivity-container {
+  display: grid;
+  grid-template-columns: 49px 198px 60px;
+  grid-template-rows: auto;
+  margin-bottom: 1em;
+}
+
+.profile-image {
+  width: 2.5em;
+  border-radius: 50%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.members-text {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.newMembersName,
+.timeSinceActivity {
+  margin-top: 0px;
+  margin-bottom: .125em;
+}
+
+.newMembers-text a {
+  font-size: .9em;
+}
+
+.date,
+.arrow {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  margin-top: 0px;
+}
+
+.arrow {
+  margin-left: 1.7em;
+  margin-top: .60em;
+}
+
+/*  styling for the message users section at 320px  */
+.message {
+  display: grid;
+  border: .0625em solid #dcdcdc;
+}
+
+.message h3 {
+  margin-left: 5em;
+  margin-top: .3125em;
+  margin-bottom: .3125em;
+}
+
+.button-primary {
+  background-color: #7275BC;
+  border-radius: .4375em;
+  width: 20em;
+  height: 2.5em;
+  color: white;
+  font-size: .9em;
+  font-family: 'Open Sans';
+  letter-spacing: .03em;
+  margin-left: .5em;
+  margin-bottom: .4375em;
+}
+
+.form-field {
+  border-radius: .1875em;
+  width: 20em;
+  height: 2em;
+  margin-left: .5em;
+  margin-bottom: .625em;
+  font-size: .9em;
+  font-family: 'Open Sans';
+  letter-spacing: .03em;
+  color: grey;
+}
+
+.form-area {
+  border-radius: .1875em;
+  width: 20em;
+  height: 6em;
+  margin-left: .5em;
+  margin-bottom: .625em;
+  font-size: .9em;
+  font-family: 'Open Sans';
+  letter-spacing: .03em;
+  color: grey;
+}
+
+/*  styling for the settings section at 320px  */
+.settings {
+  display: grid;
+  border: .0625em solid #dcdcdc;
+  border-radius: .3125em;
+}
+
+.settingsHeadName {
+  margin-left: 7em;
+  margin-top: .3125em;
+  margin-bottom: .3125em;
+  color: #696969;
+}
+
+.button-disabled {
+  background-color: #B3B3B3;
+  border-radius: .4375em;
+  width: 20em;
+  height: 2.5em;
+  color: white;
+  font-size: .9em;
+  font-family: 'Open Sans';
+  letter-spacing: .03em;
+  margin-left: .5em;
+  margin-bottom: .4375em;
+}
+
+.form-field {
+  border-radius: .25em;
+}
+
+/* slider  */
+.toggles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: .625em 0;
+}
+
+.toggles h3 {
+  margin: 0;
+  font-size: .8em;
+  font-weight: lighter;
+  font-family: 'Open Sans';
+  letter-spacing: .03em;
+  color: #696969;
+  margin-left: .625em;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 5.15em;
+  height: 1.75em;
+  margin-right: .3125em;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #B3B3B3;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.5625em;
+  width: 1.5625em;
+  left: .55em;
+  bottom: .06875em;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: #8486CB;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 .1875em #8486CB;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(2.1875em);
+  -ms-transform: translateX(2.1875em);
+  transform: translateX(2.1875em);
+}
+
+.slider:after {
+  font-size: 1.2em;
+  content: 'OFF';
+  color: white;
+  display: block;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 67%;
+}
+
+input:checked+.slider:after {
+  content: 'ON';
+  left: 27%;
+}
+
+.slider.round {
+  border-radius: 2.1875em;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
 
 /* media queries */
 @media (min-width: 768px) {
-.grid-container {
-grid-template-columns: 55px 1fr;
-grid-template-areas:
-"header header"
-"navigation main";
-}
+  .grid-container {
+    grid-template-columns: 55px 1fr;
+    grid-template-areas:
+      "header header"
+      "navigation main";
+  }
 }
 
 .main {
-display: grid;
-}
-@media (min-width: 768px) {
-.main {
-grid-template-columns: 50% ;
-}
+  display: grid;
 }
 
 @media (min-width: 768px) {
-.traffic, .social {
-grid-column: 1 / span 2;
-}
-}
-
-@media (min-width: 768px) {
-.daily, .members, .message {
-grid-column: 1 / span 1;
+  .main {
+    grid-template-columns: 50%;
+  }
 }
 
 @media (min-width: 768px) {
-.mobile, .activity, .settings {
-grid-column: 2 / span 1;
+  .traffic, .social {
+    grid-column: 1 / span 2;
+  }
 }
 
-.widget-container-full, .widget-container-half {
-width: 95vw;
-}
 @media (min-width: 768px) {
-.widget-container-full {
-width: 90vw;
-}
-.widget-container-half {
-  width: 45vw;
-}
-}
+  .daily, .members, .message {
+    grid-column: 1 / span 1;
+  }
+
+  @media (min-width: 768px) {
+    .mobile, .activity, .settings {
+      grid-column: 2 / span 1;
+    }
+
+    .widget-container-full, .widget-container-half {
+      width: 95vw;
+    }
+
+    @media (min-width: 768px) {
+      .widget-container-full {
+        width: 90vw;
+      }
+
+      .widget-container-half {
+        width: 45vw;
+      }
+    }

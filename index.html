@@ -103,7 +103,7 @@
           <ul class="traffic-nav">
             <li class="traffic-nav-link">Hourly</li>
             <li class="traffic-nav-link">Daily</li>
-            <li class="traffic-nav-link">Weekly</li>
+            <li class="traffic-nav-link weekly">Weekly</li>
             <li class="traffic-nav-link">Monthly</li>
           </ul>
         </div>
@@ -175,11 +175,7 @@
         <div class="facebook-container">
           <div class="social-image">
             <!-- inline optimized svg icon -->
-            <svg
-              height="56.693"
-              width="56.693"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg height="55" width="55" xmlns="http://www.w3.org/2000/svg">
               <path
                 fill="green"
                 d="M40.43 21.739h-7.645v-5.014c0-1.883 1.248-2.322 2.127-2.322h5.395V6.125l-7.43-.029c-8.248 0-10.125 6.174-10.125 10.125v5.518h-4.77v8.53h4.77v24.137h10.033V30.269h6.77l.875-8.53z"
@@ -220,36 +216,36 @@
       <!-- new members and recent activity section-->
 
       <!-- new members widget -->
-      <section class="members">
+      <section class="newMembers">
         <h3>New Members</h3>
 
         <!-- new member 1 -->
-        <div class="members-container">
+        <div class="newMembers-container">
           <img
             src="images/member-1.jpg"
             class="profile-image"
             alt="profile picture of user"
           />
           <div class="members-text">
-            <p>
+            <p class="newMembersName">
               Victoria Chambers
             </p>
             <a href="#">victoria.chambers80@example.com</a>
           </div>
-          <p>
+          <p class="date">
             10/15/15
           </p>
         </div>
 
         <!-- new member 2 -->
-        <div class="members-container">
+        <div class="newMembers-container">
           <img
             src="images/member-2.jpg"
             class="profile-image"
             alt="profile picture of user"
           />
           <div class="members-text">
-            <p>
+            <p class="newMembersName">
               Dale Byrd
             </p>
             <a href="#">dale.byrd52@example.com</a>
@@ -260,14 +256,14 @@
         </div>
 
         <!-- new member 3 -->
-        <div class="members-container">
+        <div class="newMembers-container">
           <img
             src="images/member-3.jpg"
             class="profile-image"
             alt="profile picture of user"
           />
           <div class="members-text">
-            <p>
+            <p class="newMembersName">
               Dawn Wood
             </p>
             <a href="#">dawn.wood16@example.com</a>
@@ -278,14 +274,14 @@
         </div>
 
         <!-- new member 4 -->
-        <div class="members-container">
+        <div class="newMembers-container">
           <img
             src="images/member-4.jpg"
             class="profile-image"
             alt="profile picture of user"
           />
           <div class="members-text">
-            <p>
+            <p class="newMembersName">
               Dan Oliver
             </p>
             <a href="#">dan.oliver82@example.com</a>
@@ -301,81 +297,81 @@
         <h3>Recent Activity</h3>
 
         <!-- recent activity member 1 -->
-        <div class="members-container">
+        <div class="recentActivity-container">
           <img
             src="images/member-1.jpg"
             class="profile-image"
             alt="profile picture of user"
           />
           <div class="members-text">
-            <p>
+            <p class="newMembersName">
               Victoria Chambers commented on YourApp's SEO Tips
             </p>
-            <p>
+            <p class="timeSinceActivity">
               4 hours ago
             </p>
           </div>
-          <p>
+          <p class="arrow">
             >
           </p>
         </div>
 
         <!-- recent activity member 2 -->
-        <div class="members-container">
+        <div class="recentActivity-container">
           <img
             src="images/member-2.jpg"
             class="profile-image"
             alt="profile picture of user"
           />
           <div class="members-text">
-            <p>
+            <p class="newMembersName">
               Dale Byrd like the post Facebook's Changes for 2016
             </p>
-            <p>
+            <p class="timeSinceActivity">
               5 hours ago
             </p>
           </div>
-          <p>
+          <p class="arrow">
             >
           </p>
         </div>
 
         <!-- recent activity member 3 -->
-        <div class="members-container">
+        <div class="recentActivity-container">
           <img
             src="images/member-3.jpg"
             class="profile-image"
             alt="profile picture of user"
           />
           <div class="members-text">
-            <p>
+            <p class="newMembersName">
               Dawn Wood commented on Facebook's Changes for 2016
             </p>
-            <p>
+            <p class="timeSinceActivity">
               5 hours ago
             </p>
           </div>
-          <p>
+          <p class="arrow">
             >
           </p>
         </div>
 
         <!-- recent activity member 4 -->
-        <div class="members-container">
+        <div class="recentActivity-container">
           <img
             src="images/member-4.jpg"
             class="profile-image"
             alt="profile picture of user"
           />
           <div class="members-text">
-            <p>
+            <p class="newMembersName">
               Dan Oliver posted YourApp's SEO Tips
             </p>
-            <p>
+            <p class="timeSinceActivity">
               1 day ago
             </p>
           </div>
-          <p>
+          <p class="arrow">
             >
           </p>
         </div>
@@ -399,7 +395,7 @@
             class="form-area"
             id="messageField"
           ></textarea>
-          <button class="button-primary" id="send">Send</button>
+          <button class="button-primary" id="send">SEND</button>
         </form>
       </section>
 
@@ -407,7 +403,7 @@
 
       <!-- local settings widget -->
       <section class="settings">
-        <h3>Settings</h3>
+        <h3 class="settingsHeadName">Settings</h3>
 
         <!-- custom CSS toggle code-->
         <div class="message-fields">
