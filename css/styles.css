@@ -1,4 +1,26 @@
 
+/* setting up css grid layout */
+body {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "header"
+  "navigation"
+  "main";
+  }
+
+  header {
+  grid-area: header;
+  }
+
+  navigation {
+  grid-area: navigation;
+  }
+
+  main {grid-area: main;
+}
+
 /* styling for the header at 320px*/
 header{
   background-color: #737ABF;
@@ -6,7 +28,6 @@ header{
   display: grid;
   grid-template-columns: 2fr .4fr .4fr 1fr;
   grid-template-rows: auto;
-
 }
 
 h1{
@@ -62,7 +83,7 @@ h1{
   font-size: .72em;
   font-family: 'Open Sans';
   font-weight: lighter;
-  letter-spacing: .5px;
+  letter-spacing: .03125em;
   margin-top: 17%;
   grid-column-start: 4;
   grid-column-end: 5;
@@ -71,17 +92,183 @@ h1{
 }
 
 /* styling for the navigation at 320px*/
-
 nav {
   background-color: #4B4D72;
   display: grid;
   grid-template-columns: repeat(4, .15fr);
   grid-template-rows: auto;
-  padding-left: 85px;
+  padding-left: 5.3125em;
 }
 
 nav img{
   max-width: 1em;
   margin-top: .6em;
   margin-bottom: .2em;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+/* styling for the dashboard and search bar at 320px*/
+.main-header{
+  display: grid;
+  grid-template-columns: .5fr 2fr;
+  grid-template-rows: auto;
+  grid-gap: .8em;
+}
+
+.headline{
+  margin-left: 0.625em;
+}
+
+.main-header-search{
+margin-top: 1.5em;
+margin-left: .3em;
+}
+
+/* styling for the alert bar at 320px */
+
+.alert{
+  background-color: #737ABF;
+  color: white;
+  font-size: .8em;
+  font-family: 'Open Sans';
+  letter-spacing: .07em;
+}
+
+.alertText{
+  margin-left: .5em;
+}
+
+/*  styling for the traffic at 320px  */
+
+.traffic-header{
+  display: grid;
+  grid-template-columns: .5fr 4fr;
+  grid-template-rows: auto;
+}
+
+.traffic-header h3{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.traffic-nav{
+  display: grid;
+  grid-template-columns: 63px 55px 70px 5px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin-left: -1.25em;
+  font-size: .8em;
+  margin-top: 1.25em;
+}
+
+.lineGraphPlaceHolder,
+.barGraphPlaceHolder,
+.doughnutGraphPlaceHolder{
+width:100%;
+}
+
+/*  styling for the daily traffic at 320px  */
+
+.daily h3,
+.mobile h3{
+  margin-top: .625em;
+  margin-bottom: .625em;
+}
+
+/*  styling for the social stats at 320px  */
+
+.socialStatusSection{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+}
+
+.social-text{
+  font-size: .8em;
+  font-family: 'Open Sans';
+  letter-spacing: .03em;
+  margin-left: -30px;
+}
+
+.social-numbers{
+  font-size: 1.5em;
+  font-family: 'Open Sans';
+  letter-spacing: .03em;
+  margin-top: -.9375em;
+}
+
+.twitter-container,
+.googlePlus-container,
+.facebook-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.social-image{
+  margin-left: 3.8em;
+  margin-top: .5em;
+}
+
+.social-image-twitter,
+.social-image-googlePlus{
+  margin-top: 1.25em;
+  margin-left: 4.8em;
+}
+
+.social-image-twitter,
+.social-image-googlePlus{
+  max-width: 2em;
+}
+
+/* media queries */
+@media (min-width: 768px) {
+.grid-container {
+grid-template-columns: 55px 1fr;
+grid-template-areas:
+"header header"
+"navigation main";
+}
+}
+
+.main {
+display: grid;
+}
+@media (min-width: 768px) {
+.main {
+grid-template-columns: 50% ;
+}
+}
+
+@media (min-width: 768px) {
+.traffic, .social {
+grid-column: 1 / span 2;
+}
+}
+
+@media (min-width: 768px) {
+.daily, .members, .message {
+grid-column: 1 / span 1;
+}
+
+@media (min-width: 768px) {
+.mobile, .activity, .settings {
+grid-column: 2 / span 1;
+}
+
+.widget-container-full, .widget-container-half {
+width: 95vw;
+}
+@media (min-width: 768px) {
+.widget-container-full {
+width: 90vw;
+}
+.widget-container-half {
+  width: 45vw;
+}
 }
