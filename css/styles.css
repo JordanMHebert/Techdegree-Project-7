@@ -13,7 +13,7 @@ header {
   grid-area: header;
 }
 
-navigation {
+nav {
   grid-area: navigation;
 }
 
@@ -497,14 +497,22 @@ input:checked+.slider:after {
   border-radius: 50%;
 }
 
+/* =================================================================================================================== */
+/* media queries at 768px*/
+/* =================================================================================================================== */
 
-/* media queries */
 @media (min-width: 768px) {
-  .grid-container {
+  body {
     grid-template-columns: 55px 1fr;
     grid-template-areas:
       "header header"
       "navigation main";
+  }
+}
+
+@media (min-width: 768px) {
+  nav{
+    padding-left: 0px;
   }
 }
 
@@ -519,10 +527,21 @@ input:checked+.slider:after {
 }
 
 @media (min-width: 768px) {
-  .traffic, .social {
+  .traffic, .socialStatusSection {
     grid-column: 1 / span 2;
   }
 }
+
+@media (min-width: 768px){
+  .socialStatusSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 1em;
+    padding-top: 1em;
+  }
+}
+
 
 @media (min-width: 768px) {
   .daily, .members, .message {
