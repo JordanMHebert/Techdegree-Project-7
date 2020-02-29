@@ -122,6 +122,9 @@ main {
 
 .headline {
   font-size: .9em;
+  margin-top: .8em;
+  margin-bottom: .5em;
+  color: #696969;
 }
 
 .main-header-search {
@@ -139,10 +142,13 @@ main {
   font-size: .8em;
   font-family: 'Open Sans';
   letter-spacing: .07em;
+  height: 1.64em;
+  border-radius: .25em;
 }
 
 .alertText {
   margin-left: .5em;
+  margin-top: .16em;
 }
 
 /*  styling for the traffic at 320px  */
@@ -153,8 +159,14 @@ main {
 }
 
 .traffic-header h3 {
+  font-size: .66em;
+  margin-top: 1.7em;
+  margin-bottom: .8em;
+  margin-left: 1em;
+  color: #696969;
   grid-column-start: 1;
   grid-column-end: 2;
+  text-transform: uppercase;
 }
 
 .traffic-nav {
@@ -201,11 +213,29 @@ main {
 /*  styling for the daily traffic at 320px  */
 .daily h3,
 .mobile h3 {
-  margin-top: .625em;
-  margin-bottom: .625em;
+  font-size: .66em;
+  margin-top: 1.7em;
+  margin-bottom: .5em;
+  margin-left: .5em;
+  color: #696969;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-transform: uppercase;
 }
 
 /*  styling for the social stats at 320px  */
+
+.socialHeader{
+  font-size: .66em;
+  margin-top: 1.7em;
+  margin-bottom: .8em;
+  margin-left: .5em;
+  color: #696969;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-transform: uppercase;
+}
+
 .socialStatusSection {
   display: grid;
   grid-template-columns: 100%;
@@ -277,7 +307,14 @@ main {
 
 .newMembers h3,
 .recentActivity h3 {
-  margin-left: 5em;
+  font-size: .66em;
+  margin-top: 1.7em;
+  margin-bottom: 1.4em;
+  margin-left: 1em;
+  color: #696969;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-transform: uppercase;
 }
 
 .newMembers-container,
@@ -329,9 +366,14 @@ main {
 }
 
 .message h3 {
-  margin-left: 5em;
-  margin-top: .3125em;
-  margin-bottom: .3125em;
+  font-size: .66em;
+  margin-top: 1.7em;
+  margin-bottom: 1.4em;
+  margin-left: 1em;
+  color: #696969;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-transform: uppercase;
 }
 
 .button-primary {
@@ -379,10 +421,14 @@ main {
 }
 
 .settingsHeadName {
-  margin-left: 7em;
-  margin-top: .3125em;
-  margin-bottom: .3125em;
+  font-size: .66em;
+  margin-top: 1.7em;
+  margin-bottom: .4em;
+  margin-left: 1em;
   color: #696969;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-transform: uppercase;
 }
 
 .button-disabled {
