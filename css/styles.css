@@ -610,7 +610,7 @@ h1{
 }
 
 .vl {
-  margin-left: 10.5em;
+  margin-left: 10.7em;
   margin-top: .3em;
 }
 
@@ -1201,13 +1201,14 @@ margin-left: .5em;
 
 
     /* =================================================================================================================== */
-    /*                                   media queries at 1973px*/
+    /*                                   media queries at 1396px*/
     /* =================================================================================================================== */
 
-      @media (min-width: 1973px) {
+      @media (min-width: 1396px) {
+
         header{
-          width: 123.3125em;
-          grid-template-columns: 1700px 50px 50px 173px;
+          width: 86em;
+          grid-template-columns: 1096px 50px 50px 200px;
           grid-template-rows: auto;
           }
 
@@ -1218,32 +1219,32 @@ margin-left: .5em;
         }
 
         .bell-icon {
-          margin-left: 5em;
+          margin-left: 6.9em;
           max-width: 1.4em;
           margin-top: 1.4em;
         }
 
         .vl {
-          margin-left: 37.5em;
-          margin-top: .5em;
+          margin-left: 24.4em;
+          margin-top: .8em;
         }
 
         .signedInUserProfilePic {
-          margin-left: 5em;
+          margin-left: 6em;
           margin-top: .92em;
           max-width: 2em;
         }
 
         .signedInUserName {
-          margin-left: 5em;
+          margin-left: 6em;
           margin-top: 1.4em;
           font-size: .9em;
         }
 
     }
 
-                     /* settings for navigation at 1973px */
-    @media (min-width: 1973px) {
+                                         /* settings for navigation at 1396px*/
+    @media (min-width: 1396px) {
 
     nav {
     display: grid;
@@ -1259,8 +1260,8 @@ margin-left: .5em;
 
     }
 
-                       /* settings for dashboard at 1973px */
-    @media (min-width: 1973px) {
+                                       /* settings for dashboard at 1396px*/
+    @media (min-width: 1396px) {
 
       .headline{
         margin-left: 1.1em;
@@ -1269,27 +1270,27 @@ margin-left: .5em;
       }
 
       .main-header-search {
-          width: 106em;
-          margin-left: 1em;
+          width: 69em;
+          margin-left: .5em;
           padding-top: 1em;
           padding-bottom: 2em;
       }
 
       .main-header-search input{
-          margin-left: 99.2em;
+          margin-left: 56em;
           width: 26em;
           height: 2.3em;
-          margin-top: -.3em;
+          margin-top: .1em;
       }
 
     }
 
-                           /* settings for alert bar at 1973px*/
-    @media (min-width: 1973px) {
+                                        /* settings for alert bar at 1396px */
+    @media (min-width: 1396px) {
 
       .alert {
-      margin-left: 2.01em;
-      width: 148em;
+      margin-left: 2em;
+      width: 101em;
       height: 3.4em;
       }
 
@@ -1300,8 +1301,8 @@ margin-left: .5em;
       }
     }
 
-                        /* settings for traffic section at 1973px */
-    @media (min-width: 1973px) {
+                                   /* settings for traffic section at 1396px*/
+    @media (min-width: 1396px) {
 
       .traffic-header{
         margin-left: .5em;
@@ -1317,7 +1318,7 @@ margin-left: .5em;
       }
 
       .traffic-nav{
-        margin-left: 121.5em;
+        margin-left: 69.5em;
       }
 
       .lineGraphPlaceHolder{
@@ -1325,8 +1326,362 @@ margin-left: .5em;
         height: 440px;
       }
     }
-                          /* settings for traffic section at 1973px */
-    @media (min-width: 1973px) {
+                                  /* settings for traffic section at 1396px*/
+    @media (min-width: 1396px) {
+      .midGraphs{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+      }
+
+
+      .daily {
+        margin-left: .3em;
+      }
+
+    .daily h3{
+      padding-bottom: .8em;
+      font-size: 1em;
+      margin-left: 1em;
+    }
+
+    .mobile h3{
+      padding-bottom: .8em;
+      font-size: 1em;
+      margin-left: 1em;
+    }
+      .doughnutGraphPlaceHolder,
+      .barGraphPlaceHolder{
+        width: 640px;
+        height: 340px;
+    }
+
+    .barGraphPlaceHolder{
+      margin-left: 1em;
+    }
+    .doughnutGraphPlaceHolder{
+      margin-left: 1em;
+    }
+    }
+
+                                         /* settings for social section at 1396px */
+    @media (min-width: 1396px) {
+      .social-text {
+        margin-left: -.8em;
+        margin-top: .2em;
+        font-size: 1.5em;
+      }
+
+      .socialHeader{
+        font-size: 1em;
+        margin-left: 3em;
+      }
+
+      .twitter-container{
+          margin-left: 3em;
+      }
+
+      .facebook-container{
+        margin-left: 2em;
+      }
+
+      .googlePlus-container{
+        margin-left: 1em;
+      }
+
+      .twitter-container,
+      .googlePlus-container,
+      .facebook-container{
+        width: 16em;
+        height: 8em;
+      }
+
+      .social-image{
+        margin-left: 1em;
+        margin-top: 2em;
+        width: 4em;
+        height: 4em;
+        background-color: rgba(112, 112, 164, 1);
+        border: .1875em solid rgba(112, 112, 164, 1);
+        border-radius: 50%;
+      }
+
+      .social-image-twitter,
+      .social-image-googlePlus{
+        margin-left: 1em;
+        margin-top: 2em;
+        width: 3em;
+        height: 3em;
+      }
+    }
+
+                          /* settings for new members and recent activity at 1396px */
+    @media (min-width: 1396px) {
+
+      .recentActivity h3,
+      .newMembers h3{
+        font-size: 1em;
+        margin-left: 3.9em;
+      }
+
+    .date {
+      margin-left: 7em;
+      margin-top: .5em;
+      font-size: 1.2em;
+    }
+
+    .arrow {
+      margin-left: 10em;
+      font-size: 1.2em;
+    }
+
+    .members-text{
+      margin-left: 1em;
+    }
+
+    .newMembersName,
+    .members-text a{
+      font-size: 1em;
+      margin-left: 1em;
+      width: 18.75em;
+    }
+
+    .activeMembersName{
+      width: 17em;
+      font-size: 1em;
+      margin-left: 1em;
+    }
+
+    .timeSinceActivity{
+      margin-left: 1em;
+    }
+
+    .newMembers-container img,
+    .recentActivity-container img{
+      margin-left: 2em;
+    }
+    }
+
+                                         /* settings for message user at 1396px*/
+    @media (min-width: 1396px) {
+
+      .form-field,
+      .form-area{
+        margin-left: 2em;
+        width: 30em;
+      }
+
+      .message h3,
+      .settings h3{
+        font-size: 1em;
+        margin-left: 2em;
+      }
+
+      .form-area{
+        height: 11em;
+      }
+      .button-primary{
+        width: 31em;
+        margin-left: 1.8em;
+      }
+    }
+                                    /* settings for settings at 1396px*/
+
+    @media (min-width: 1396px) {
+    .button-primary2,
+    .button-disabled{
+        max-width: 15em;
+        margin-left: 2em;
+    }
+
+    .button-disabled{
+      margin-left: .3em;
+    }
+
+    .toggles{
+      justify-content: flex-start;
+    }
+
+    .toggles h3{
+      margin-right: 4em;
+    }
+
+    .setProfile{
+      padding-right: 2.3em;
+    }
+
+    }
+
+                                       /* other settings at 1396px*/
+
+    @media (min-width: 1396px) {
+      .traffic, .socialStatusSection {
+        grid-column: 1 / span 2;
+      }
+    }
+
+    @media (min-width: 1396px){
+      .socialStatusSection{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding-bottom: 1em;
+        padding-top: .8em;
+      }
+    }
+
+    @media (min-width: 1396px) {
+      .daily, .members, .message {
+        grid-column: 1 / span 1;
+      }
+
+      @media (min-width: 1396px) {
+        .mobile, .activity, .settings {
+          grid-column: 2 / span 1;
+        }
+
+        .widget-container-full, .widget-container-half {
+          width: 95vw;
+        }
+
+        @media (min-width: 1396px) {
+          .widget-container-full {
+            width: 90vw;
+          }
+
+          .widget-container-half {
+            width: 45vw;
+          }
+        }
+
+
+    /* =================================================================================================================== */
+    /*                                   media queries at 1745px*/
+    /* =================================================================================================================== */
+
+      @media (min-width: 1745px) {
+        header{
+          width: 108em;
+          grid-template-columns: 1495px 50px 50px 150px;
+          grid-template-rows: auto;
+          }
+
+        h1{
+          margin-top: .8em;
+          padding-left: -.2em;
+          font-size: 1.3em;
+        }
+
+        .bell-icon {
+          margin-left: 3.5em;
+          max-width: 1.4em;
+          margin-top: 1.3em;
+        }
+
+        .vl {
+          margin-left: 32.8em;
+          margin-top: .5em;
+        }
+
+        .signedInUserProfilePic {
+          margin-left: 3em;
+          margin-top: .92em;
+          max-width: 2em;
+        }
+
+        .signedInUserName {
+          margin-left: 2.7em;
+          margin-top: 1.4em;
+          font-size: .9em;
+        }
+
+    }
+
+                     /* settings for navigation at 1745px */
+    @media (min-width: 1745px) {
+
+    nav {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 70px 70px 70px;
+    }
+
+    nav img {
+    margin-top: 1.8em;
+    max-width: 2em;
+    margin-left: .5em;
+    }
+
+    }
+
+                       /* settings for dashboard at 1745px */
+    @media (min-width: 1745px) {
+
+      .headline{
+        margin-left: 1.1em;
+        font-size: 1.3em;
+        margin-top: 1em;
+      }
+
+      .main-header-search {
+          width: 91.5em;
+          margin-left: 0em;
+          padding-top: 1em;
+          padding-bottom: 2em;
+      }
+
+      .main-header-search input{
+          margin-left: 82em;
+          width: 26em;
+          height: 2.3em;
+          margin-top: -.3em;
+      }
+
+    }
+
+                           /* settings for alert bar at 1745px*/
+    @media (min-width: 1745px) {
+
+      .alert {
+      margin-left: 2.01em;
+      width: 129em;
+      height: 3.4em;
+      }
+
+      .alertText {
+        margin-left: .8em;
+        margin-top: .70em;
+        font-size: 1.2em;
+      }
+    }
+
+                        /* settings for traffic section at 1745px */
+    @media (min-width: 1745px) {
+
+      .traffic-header{
+        margin-left: .5em;
+      }
+
+      .traffic-header h3,
+      .traffic-nav-link{
+        font-size: 1em;
+      }
+
+      .month{
+        margin-right: -3em;
+      }
+
+      .traffic-nav{
+        margin-left: 102em;
+      }
+
+      .lineGraphPlaceHolder{
+        width: 900px;
+        height: 440px;
+      }
+    }
+                          /* settings for traffic section at 1745px*/
+    @media (min-width: 1745px) {
       .midGraphs{
         display: grid;
         grid-template-columns: 50% 50%;
@@ -1345,17 +1700,25 @@ margin-left: .5em;
 
       .doughnutGraphPlaceHolder,
       .barGraphPlaceHolder{
-        width: 950px;
-        height: 550px;
+        width: 800px;
+        height: 450px;
     }
     }
 
-                         /* settings for social section at 1973px */
-    @media (min-width: 1973px) {
+                         /* settings for social section at 1745px */
+    @media (min-width: 1745px) {
       .social-text {
-        margin-left: -1em;
+        margin-left: -3em;
         margin-top: 1em;
         font-size: 1.5em;
+      }
+
+      .google{
+        margin-left: 4em;
+      }
+
+      .googleNum{
+        margin-left: 2.7em;
       }
 
       .socialHeader{
@@ -1383,7 +1746,7 @@ margin-left: .5em;
       }
 
       .social-image{
-        margin-left: 8em;
+        margin-left: 7em;
         margin-top: 3em;
         width: 4em;
         height: 4em;
@@ -1392,17 +1755,23 @@ margin-left: .5em;
         border-radius: 50%;
       }
 
-      .social-image-twitter,
       .social-image-googlePlus{
-        margin-left: 6em;
+        margin-left: 12em;
+        margin-top: 3.2em;
+        width: 3em;
+        height: 3em;
+      }
+
+      .social-image-twitter{
+        margin-left: 5em;
         margin-top: 3.2em;
         width: 3em;
         height: 3em;
       }
     }
 
-                    /* settings for new members and recent activity at 1973px */
-    @media (min-width: 1973px) {
+                    /* settings for new members and recent activity at 1745px*/
+    @media (min-width: 1745px) {
 
       .recentActivity h3,
       .newMembers h3{
@@ -1411,12 +1780,12 @@ margin-left: .5em;
       }
 
     .date {
-      margin-left: 30em;
+      margin-left: 25em;
       font-size: 1.2em;
     }
 
     .arrow {
-      margin-left: 32em;
+      margin-left: 27em;
       font-size: 1.2em;
     }
 
@@ -1445,10 +1814,19 @@ margin-left: .5em;
     .recentActivity-container img{
       margin-left: 4em;
     }
+
+.newMembers,
+.recentActivity,
+.message,
+.settings{
+  width: 835px;
+}
+
+
     }
 
-                             /* settings for message user at 1973px*/
-    @media (min-width: 1973px) {
+                             /* settings for message user at 1745px*/
+    @media (min-width: 1745px) {
 
       .form-field,
       .form-area{
@@ -1470,9 +1848,9 @@ margin-left: .5em;
         margin-left: 10em;
       }
     }
-                          /* settings for settings at 1973px*/
+                          /* settings for settings at 1745px*/
 
-    @media (min-width: 1973px) {
+    @media (min-width: 1745px) {
     .button-primary2,
     .button-disabled{
         max-width: 20em;
@@ -1502,15 +1880,15 @@ margin-left: .5em;
 
     }
 
-                               /* other settings at 1973px*/
+                               /* other settings at 1745px*/
 
-    @media (min-width: 1973px) {
+    @media (min-width: 1745px) {
       .traffic, .socialStatusSection {
         grid-column: 1 / span 2;
       }
     }
 
-    @media (min-width: 1973px){
+    @media (min-width: 1745px){
       .socialStatusSection{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -1520,12 +1898,12 @@ margin-left: .5em;
       }
     }
 
-    @media (min-width: 1973px) {
+    @media (min-width: 1745px) {
       .daily, .members, .message {
         grid-column: 1 / span 1;
       }
 
-      @media (min-width: 1973px) {
+      @media (min-width: 1745px) {
         .mobile, .activity, .settings {
           grid-column: 2 / span 1;
         }
@@ -1534,7 +1912,7 @@ margin-left: .5em;
           width: 95vw;
         }
 
-        @media (min-width: 1973px) {
+        @media (min-width: 1745px) {
           .widget-container-full {
             width: 90vw;
           }
