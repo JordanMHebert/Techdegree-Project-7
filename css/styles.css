@@ -67,7 +67,7 @@ h1 {
   position: absolute;
   left: 61%;
   margin-left: -0.1875em;
-  top: 2%;
+  top: 1%;
 }
 
 .signedInUserProfilePic {
@@ -335,6 +335,7 @@ main {
   border-radius: 50%;
   grid-column-start: 1;
   grid-column-end: 2;
+  margin-left: .19em;
 }
 
 .members-text {
@@ -348,6 +349,15 @@ main {
   margin-bottom: .125em;
 }
 
+.activeMembersName{
+  width: 200px;
+  margin-top: .1em;
+}
+
+.timeSinceActivity{
+  margin-top: -1em;
+}
+
 .newMembers-text a {
   font-size: .9em;
 }
@@ -356,12 +366,12 @@ main {
 .arrow {
   grid-column-start: 3;
   grid-column-end: 4;
-  margin-top: 0px;
+  margin-top: .2px;
 }
 
 .arrow {
   margin-left: 1.7em;
-  margin-top: .60em;
+  margin-top: .01em;
 }
 
                            /*  styling for the message users section at 320px  */
@@ -549,6 +559,22 @@ input:checked+.slider:after {
   border-radius: 50%;
 }
 
+.button-disabled{
+  margin-left: .3em;
+}
+
+.toggles{
+  justify-content: flex-start;
+}
+
+.toggles h3{
+  margin-right: 4em;
+}
+
+.setProfile{
+  padding-right: 2.3em;
+}
+
 /* =================================================================================================================== */
 /*                                 media queries at 768px*/
 /* =================================================================================================================== */
@@ -584,8 +610,8 @@ h1{
 }
 
 .vl {
-  margin-left: 10.8em;
-  margin-top: .4em;
+  margin-left: 10.5em;
+  margin-top: .3em;
 }
 
 .signedInUserProfilePic {
@@ -748,8 +774,7 @@ h1{
     width: 23em;
   }
 }
-
-                          /* settings for settings at 768px */
+                                /* settings for settings at 768px */
 
 @media (min-width: 768px) {
 .button-primary2,
@@ -777,9 +802,7 @@ h1{
 
 }
 
-
-
-
+                                   /* other settings at 768px */
 
 @media (min-width: 768px) {
   .traffic, .socialStatusSection {
@@ -796,7 +819,6 @@ h1{
     padding-top: .8em;
   }
 }
-
 
 @media (min-width: 768px) {
   .daily, .members, .message {
@@ -821,3 +843,703 @@ h1{
         width: 45vw;
       }
     }
+
+
+/* =================================================================================================================== */
+/*                                   media queries at 1032px*/
+/* =================================================================================================================== */
+
+  @media (min-width: 1032px) {
+
+    header{
+      width: 64em;
+      grid-template-columns: 830px 50px 50px 94px;
+      grid-template-rows: auto;
+      }
+
+    h1{
+      margin-top: .8em;
+      padding-left: -.2em;
+      font-size: 1.3em;
+    }
+
+    .bell-icon {
+      margin-left: 1.4em;
+      max-width: 1.4em;
+      margin-top: 1.4em;
+    }
+
+    .vl {
+      margin-left: 15.7em;
+      margin-top: .5em;
+    }
+
+    .signedInUserProfilePic {
+      margin-left: .6em;
+      margin-top: .92em;
+      max-width: 2em;
+    }
+
+    .signedInUserName {
+      margin-left: 0em;
+      margin-top: 1.4em;
+      font-size: .9em;
+    }
+
+}
+
+                                     /* settings for navigation at 1032px */
+@media (min-width: 1032px) {
+
+nav {
+display: grid;
+grid-template-columns: 100%;
+grid-template-rows: 70px 70px 70px 70px;
+}
+
+nav img {
+margin-top: 1.8em;
+max-width: 2em;
+margin-left: .5em;
+}
+
+}
+
+                                   /* settings for dashboard at 1032px */
+@media (min-width: 1032px) {
+
+  .headline{
+    margin-left: 1.1em;
+    font-size: 1.3em;
+    margin-top: 1em;
+  }
+
+  .main-header-search {
+      width: 47.4em;
+      margin-left: -.1em;
+      padding-top: 1em;
+      padding-bottom: 2em;
+  }
+
+  .main-header-search input{
+      margin-left: 29em;
+      width: 26em;
+      height: 2.3em;
+      margin-top: .1em;
+  }
+
+}
+
+                                    /* settings for alert bar at 1032px */
+@media (min-width: 1032px) {
+
+  .alert {
+  margin-left: 1.01em;
+  width: 74em;
+  height: 3.4em;
+  }
+
+  .alertText {
+    margin-left: .8em;
+    margin-top: .70em;
+    font-size: 1.2em;
+  }
+}
+
+                               /* settings for traffic section at 1032px */
+@media (min-width: 1032px) {
+
+  .traffic-header{
+    margin-left: .5em;
+  }
+
+  .traffic-header h3,
+  .traffic-nav-link{
+    font-size: 1em;
+  }
+
+  .month{
+    margin-right: -3em;
+  }
+
+  .traffic-nav{
+    margin-left: 45em;
+  }
+
+  .lineGraphPlaceHolder{
+    width: 900px;
+    height: 440px;
+  }
+}
+                              /* settings for traffic section at 1032px */
+@media (min-width: 1032px) {
+  .midGraphs{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+  }
+
+
+  .daily {
+    margin-left: .3em;
+  }
+
+.daily h3{
+  padding-bottom: .8em;
+  font-size: 1em;
+  margin-left: 1em;
+}
+
+.mobile h3{
+  padding-bottom: .8em;
+  font-size: 1em;
+  margin-left: 1em;
+}
+  .doughnutGraphPlaceHolder,
+  .barGraphPlaceHolder{
+    width: 450px;
+    height: 250px;
+}
+
+.barGraphPlaceHolder{
+  margin-left: 1em;
+}
+.doughnutGraphPlaceHolder{
+  margin-left: 1em;
+}
+}
+
+                                     /* settings for social section at 1032px */
+@media (min-width: 1032px) {
+  .social-text {
+    margin-left: -.8em;
+    margin-top: .2em;
+    font-size: 1.5em;
+  }
+
+  .socialHeader{
+    font-size: 1em;
+    margin-left: 3em;
+  }
+
+  .twitter-container{
+      margin-left: 3em;
+  }
+
+  .facebook-container{
+    margin-left: 2em;
+  }
+
+  .googlePlus-container{
+    margin-left: 1em;
+  }
+
+  .twitter-container,
+  .googlePlus-container,
+  .facebook-container{
+    width: 16em;
+    height: 8em;
+  }
+
+  .social-image{
+    margin-left: 1em;
+    margin-top: 2em;
+    width: 4em;
+    height: 4em;
+    background-color: rgba(112, 112, 164, 1);
+    border: .1875em solid rgba(112, 112, 164, 1);
+    border-radius: 50%;
+  }
+
+  .social-image-twitter,
+  .social-image-googlePlus{
+    margin-left: 1em;
+    margin-top: 2em;
+    width: 3em;
+    height: 3em;
+  }
+}
+
+                      /* settings for new members and recent activity at 1032px */
+@media (min-width: 1032px) {
+
+  .recentActivity h3,
+  .newMembers h3{
+    font-size: 1em;
+    margin-left: 3.9em;
+  }
+
+.date {
+  margin-left: 7em;
+  margin-top: .5em;
+  font-size: 1.2em;
+}
+
+.arrow {
+  margin-left: 10em;
+  font-size: 1.2em;
+}
+
+.members-text{
+  margin-left: 1em;
+}
+
+.newMembersName,
+.members-text a{
+  font-size: 1em;
+  margin-left: 1em;
+  width: 18.75em;
+}
+
+.activeMembersName{
+  width: 17em;
+  font-size: 1em;
+  margin-left: 1em;
+}
+
+.timeSinceActivity{
+  margin-left: 1em;
+}
+
+.newMembers-container img,
+.recentActivity-container img{
+  margin-left: 2em;
+}
+}
+
+                                     /* settings for message user at 1032px*/
+@media (min-width: 1032px) {
+
+  .form-field,
+  .form-area{
+    margin-left: 2em;
+    width: 30em;
+  }
+
+  .message h3,
+  .settings h3{
+    font-size: 1em;
+    margin-left: 2em;
+  }
+
+  .form-area{
+    height: 11em;
+  }
+  .button-primary{
+    width: 31em;
+    margin-left: 1.8em;
+  }
+}
+                                /* settings for settings at 1032px*/
+
+@media (min-width: 1032px) {
+.button-primary2,
+.button-disabled{
+    max-width: 15em;
+    margin-left: 2em;
+}
+
+.button-disabled{
+  margin-left: .3em;
+}
+
+.toggles{
+  justify-content: flex-start;
+}
+
+.toggles h3{
+  margin-right: 4em;
+}
+
+.setProfile{
+  padding-right: 2.3em;
+}
+
+}
+
+                                   /* other settings at 1032px*/
+
+@media (min-width: 1032px) {
+  .traffic, .socialStatusSection {
+    grid-column: 1 / span 2;
+  }
+}
+
+@media (min-width: 1032px){
+  .socialStatusSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 1em;
+    padding-top: .8em;
+  }
+}
+
+@media (min-width: 1032px) {
+  .daily, .members, .message {
+    grid-column: 1 / span 1;
+  }
+
+  @media (min-width: 1032px) {
+    .mobile, .activity, .settings {
+      grid-column: 2 / span 1;
+    }
+
+    .widget-container-full, .widget-container-half {
+      width: 95vw;
+    }
+
+    @media (min-width: 1032px) {
+      .widget-container-full {
+        width: 90vw;
+      }
+
+      .widget-container-half {
+        width: 45vw;
+      }
+    }
+
+
+    /* =================================================================================================================== */
+    /*                                   media queries at 1973px*/
+    /* =================================================================================================================== */
+
+      @media (min-width: 1973px) {
+        header{
+          width: 123.3125em;
+          grid-template-columns: 1700px 50px 50px 173px;
+          grid-template-rows: auto;
+          }
+
+        h1{
+          margin-top: .8em;
+          padding-left: -.2em;
+          font-size: 1.3em;
+        }
+
+        .bell-icon {
+          margin-left: 5em;
+          max-width: 1.4em;
+          margin-top: 1.4em;
+        }
+
+        .vl {
+          margin-left: 37.5em;
+          margin-top: .5em;
+        }
+
+        .signedInUserProfilePic {
+          margin-left: 5em;
+          margin-top: .92em;
+          max-width: 2em;
+        }
+
+        .signedInUserName {
+          margin-left: 5em;
+          margin-top: 1.4em;
+          font-size: .9em;
+        }
+
+    }
+
+                     /* settings for navigation at 1973px */
+    @media (min-width: 1973px) {
+
+    nav {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 70px 70px 70px;
+    }
+
+    nav img {
+    margin-top: 1.8em;
+    max-width: 2em;
+    margin-left: .5em;
+    }
+
+    }
+
+                       /* settings for dashboard at 1973px */
+    @media (min-width: 1973px) {
+
+      .headline{
+        margin-left: 1.1em;
+        font-size: 1.3em;
+        margin-top: 1em;
+      }
+
+      .main-header-search {
+          width: 106em;
+          margin-left: 1em;
+          padding-top: 1em;
+          padding-bottom: 2em;
+      }
+
+      .main-header-search input{
+          margin-left: 99.2em;
+          width: 26em;
+          height: 2.3em;
+          margin-top: -.3em;
+      }
+
+    }
+
+                           /* settings for alert bar at 1973px*/
+    @media (min-width: 1973px) {
+
+      .alert {
+      margin-left: 2.01em;
+      width: 148em;
+      height: 3.4em;
+      }
+
+      .alertText {
+        margin-left: .8em;
+        margin-top: .70em;
+        font-size: 1.2em;
+      }
+    }
+
+                        /* settings for traffic section at 1973px */
+    @media (min-width: 1973px) {
+
+      .traffic-header{
+        margin-left: .5em;
+      }
+
+      .traffic-header h3,
+      .traffic-nav-link{
+        font-size: 1em;
+      }
+
+      .month{
+        margin-right: -3em;
+      }
+
+      .traffic-nav{
+        margin-left: 121.5em;
+      }
+
+      .lineGraphPlaceHolder{
+        width: 900px;
+        height: 440px;
+      }
+    }
+                          /* settings for traffic section at 1973px */
+    @media (min-width: 1973px) {
+      .midGraphs{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
+      }
+
+      .daily {
+        margin-left: .3em;
+      }
+
+    .daily h3,
+    .mobile h3{
+      padding-bottom: .8em;
+      font-size: 1em;
+    }
+
+      .doughnutGraphPlaceHolder,
+      .barGraphPlaceHolder{
+        width: 950px;
+        height: 550px;
+    }
+    }
+
+                         /* settings for social section at 1973px */
+    @media (min-width: 1973px) {
+      .social-text {
+        margin-left: -1em;
+        margin-top: 1em;
+        font-size: 1.5em;
+      }
+
+      .socialHeader{
+        font-size: 1em;
+        margin-left: 5em;
+      }
+
+      .twitter-container{
+          margin-left: 5em;
+      }
+
+      .facebook-container{
+        margin-left: -5em;
+      }
+
+      .googlePlus-container{
+        margin-left: -12em;
+      }
+
+      .twitter-container,
+      .googlePlus-container,
+      .facebook-container{
+        width: 35em;
+        height: 12em;
+      }
+
+      .social-image{
+        margin-left: 8em;
+        margin-top: 3em;
+        width: 4em;
+        height: 4em;
+        background-color: rgba(112, 112, 164, 1);
+        border: .1875em solid rgba(112, 112, 164, 1);
+        border-radius: 50%;
+      }
+
+      .social-image-twitter,
+      .social-image-googlePlus{
+        margin-left: 6em;
+        margin-top: 3.2em;
+        width: 3em;
+        height: 3em;
+      }
+    }
+
+                    /* settings for new members and recent activity at 1973px */
+    @media (min-width: 1973px) {
+
+      .recentActivity h3,
+      .newMembers h3{
+        font-size: 1em;
+        margin-left: 3.9em;
+      }
+
+    .date {
+      margin-left: 30em;
+      font-size: 1.2em;
+    }
+
+    .arrow {
+      margin-left: 32em;
+      font-size: 1.2em;
+    }
+
+    .members-text{
+      margin-left: 1em;
+    }
+
+    .newMembersName,
+    .members-text a{
+      font-size: 1.2em;
+      margin-left: 3em;
+      width: 18.75em;
+    }
+
+    .activeMembersName{
+      width: 31.25em;
+      font-size: 1.2em;
+      margin-left: 3em;
+    }
+
+    .timeSinceActivity{
+      margin-left: 3.6em;
+    }
+
+    .newMembers-container img,
+    .recentActivity-container img{
+      margin-left: 4em;
+    }
+    }
+
+                             /* settings for message user at 1973px*/
+    @media (min-width: 1973px) {
+
+      .form-field,
+      .form-area{
+        margin-left: 10em;
+        width: 40em;
+      }
+
+      .message h3,
+      .settings h3{
+        font-size: 1em;
+        margin-left: 9em;
+      }
+
+      .form-area{
+        height: 11em;
+      }
+      .button-primary{
+        width: 41em;
+        margin-left: 10em;
+      }
+    }
+                          /* settings for settings at 1973px*/
+
+    @media (min-width: 1973px) {
+    .button-primary2,
+    .button-disabled{
+        max-width: 20em;
+        margin-left: 10em;
+    }
+
+    .button-disabled{
+      margin-left: .3em;
+    }
+
+    .toggles{
+      justify-content: flex-start;
+    }
+
+    .toggles h3{
+      margin-right: 4em;
+    }
+
+    .setProfile{
+      padding-right: 2.3em;
+    }
+
+    .sendEmail,
+    .setProfile{
+      padding-left: 0em;
+    }
+
+    }
+
+                               /* other settings at 1973px*/
+
+    @media (min-width: 1973px) {
+      .traffic, .socialStatusSection {
+        grid-column: 1 / span 2;
+      }
+    }
+
+    @media (min-width: 1973px){
+      .socialStatusSection{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding-bottom: 1em;
+        padding-top: .8em;
+      }
+    }
+
+    @media (min-width: 1973px) {
+      .daily, .members, .message {
+        grid-column: 1 / span 1;
+      }
+
+      @media (min-width: 1973px) {
+        .mobile, .activity, .settings {
+          grid-column: 2 / span 1;
+        }
+
+        .widget-container-full, .widget-container-half {
+          width: 95vw;
+        }
+
+        @media (min-width: 1973px) {
+          .widget-container-full {
+            width: 90vw;
+          }
+
+          .widget-container-half {
+            width: 45vw;
+          }
+        }
