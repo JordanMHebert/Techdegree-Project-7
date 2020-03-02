@@ -1,0 +1,45 @@
+/* settings for social section at 1032px */
+@media (min-width: 1032px) {
+.social-text {
+margin-left: -.8em;
+margin-top: .2em;
+font-size: 1.5em;
+}
+
+.socialHeader{
+font-size: 1em;
+margin-left: 3em;
+}
+
+.twitter-container{
+margin-left: 1em;
+}
+
+.facebook-container{
+margin-left: 1em;
+}
+
+.googlePlus-container{
+margin-left: 1em;
+}
+
+.twitter-container,
+.googlePlus-container,
+.facebook-container{
+width: 18.5em;
+height: 7em;
+}
+
+.social-image{
+margin-left: 1em;
+margin-top: 2em;
+}
+
+.social-image-twitter,
+.social-image-googlePlus{
+margin-left: 1em;
+margin-top: 1.4em;
+width: 2.2em;
+height: 2.2em;
+}
+}

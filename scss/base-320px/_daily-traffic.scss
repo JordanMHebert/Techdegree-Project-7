@@ -1,0 +1,12 @@
+/*  styling for the daily traffic at 320px  */
+.daily h3,
+.mobile h3 {
+font-size: .66em;
+margin-top: 1.7em;
+margin-bottom: .5em;
+margin-left: .5em;
+color: #696969;
+grid-column-start: 1;
+grid-column-end: 2;
+text-transform: uppercase;
+}

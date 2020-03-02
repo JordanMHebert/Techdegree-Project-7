@@ -1,0 +1,41 @@
+/* settings for social section at 768px */
+@media (min-width: 768px) {
+.social-text {
+margin-left: -1em;
+margin-top: .5em;
+}
+
+.socialHeader{
+  margin-left: 1em; 
+}
+
+.twitter-container{
+  width: 13em;
+  height: 4.5em;
+  margin-left: .6em;
+}
+
+.googlePlus-container{
+  width: 13em;
+  height: 4.5em;
+  margin-left: 0em;
+}
+
+
+.facebook-container{
+width: 13em;
+height: 4.5em;
+margin-left: .2em;
+}
+
+.social-image{
+margin-left: 1.0em;
+margin-top: .5em;
+}
+
+.social-image-twitter,
+.social-image-googlePlus{
+margin-left: 1.0em;
+margin-top: .5em;
+}
+}

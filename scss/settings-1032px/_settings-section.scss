@@ -1,0 +1,31 @@
+/* settings for settings at 1032px*/
+
+@media (min-width: 1032px) {
+.button-primary2,
+.button-disabled{
+max-width: 15em;
+margin-left: 2em;
+}
+
+.settings{
+  margin-left: 8em;
+  width: 484px;
+}
+
+.button-disabled{
+margin-left: .3em;
+}
+
+.toggles{
+justify-content: flex-start;
+}
+
+.toggles h3{
+margin-right: 4em;
+}
+
+.setProfile{
+padding-right: 2.3em;
+}
+
+}

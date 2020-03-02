@@ -1,0 +1,27 @@
+/* settings for message user at 1032px*/
+@media (min-width: 1032px) {
+
+.form-field,
+.form-area{
+margin-left: 2em;
+width: 30em;
+}
+
+.message{
+  width: 484px;  
+}
+
+.message h3,
+.settings h3{
+font-size: 1em;
+margin-left: 2em;
+}
+
+.form-area{
+height: 11em;
+}
+.button-primary{
+width: 31em;
+margin-left: 1.8em;
+}
+}

@@ -1,0 +1,42 @@
+/* =================================================================================================================== */
+/*                                   media queries at 1032px*/
+/* =================================================================================================================== */
+
+@media (min-width: 1032px) {
+
+header{
+width: 64em;
+grid-template-columns: 830px 50px 50px 94px;
+grid-template-rows: auto;
+}
+
+h1{
+margin-top: .8em;
+padding-left: -.2em;
+font-size: 1.3em;
+}
+
+.bell-icon {
+margin-left: 1.4em;
+max-width: 1.4em;
+margin-top: 1.4em;
+}
+
+.vl {
+margin-left: 15.7em;
+margin-top: .5em;
+}
+
+.signedInUserProfilePic {
+margin-left: .6em;
+margin-top: .92em;
+max-width: 2em;
+}
+
+.signedInUserName {
+margin-left: 0em;
+margin-top: 1.4em;
+font-size: .9em;
+}
+
+}

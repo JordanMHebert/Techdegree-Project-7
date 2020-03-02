@@ -1,0 +1,71 @@
+/*  styling for both the new members and recent activity sections at 320px  */
+.newMembers,
+.recentActivity {
+display: grid;
+border: .0625em solid #dcdcdc;
+border-radius: .3125em;
+}
+
+.newMembers h3,
+.recentActivity h3 {
+font-size: .66em;
+margin-top: 1.7em;
+margin-bottom: 1.4em;
+margin-left: 1em;
+color: #696969;
+grid-column-start: 1;
+grid-column-end: 2;
+text-transform: uppercase;
+}
+
+.newMembers-container,
+.recentActivity-container {
+display: grid;
+grid-template-columns: 49px 198px 60px;
+grid-template-rows: auto;
+margin-bottom: 1em;
+}
+
+.profile-image {
+width: 2.5em;
+border-radius: 50%;
+grid-column-start: 1;
+grid-column-end: 2;
+margin-left: .19em;
+}
+
+.members-text {
+grid-column-start: 2;
+grid-column-end: 3;
+}
+
+.newMembersName,
+.timeSinceActivity {
+margin-top: 0px;
+margin-bottom: .125em;
+}
+
+.activeMembersName{
+width: 200px;
+margin-top: .1em;
+}
+
+.timeSinceActivity{
+margin-top: -1em;
+}
+
+.newMembers-text a {
+font-size: .9em;
+}
+
+.date,
+.arrow {
+grid-column-start: 3;
+grid-column-end: 4;
+margin-top: .2px;
+}
+
+.arrow {
+margin-left: 1.7em;
+margin-top: .01em;
+}

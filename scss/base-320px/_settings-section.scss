@@ -1,0 +1,146 @@
+
+/*  styling for the settings section at 320px  */
+.settings {
+display: grid;
+border: .0625em solid #dcdcdc;
+border-radius: .3125em;
+}
+
+.settingsHeadName {
+font-size: .66em;
+margin-top: 1.7em;
+margin-bottom: .4em;
+margin-left: 1em;
+color: #696969;
+grid-column-start: 1;
+grid-column-end: 2;
+text-transform: uppercase;
+}
+
+.button-disabled {
+background-color: #B3B3B3;
+border-radius: .4375em;
+width: 20em;
+height: 2.5em;
+color: white;
+font-size: .9em;
+font-family: 'Open Sans';
+letter-spacing: .03em;
+margin-left: .5em;
+margin-bottom: .4375em;
+}
+
+.form-field {
+border-radius: .25em;
+}
+
+            /* slider  */
+.toggles {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+margin: .625em 0;
+}
+
+.toggles h3 {
+margin: 0;
+font-size: .8em;
+font-weight: lighter;
+font-family: 'Open Sans';
+letter-spacing: .03em;
+color: #696969;
+margin-left: .625em;
+}
+
+.switch {
+position: relative;
+display: inline-block;
+width: 5.15em;
+height: 1.75em;
+margin-right: .3125em;
+}
+
+.switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #B3B3B3;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+.slider:before {
+position: absolute;
+content: "";
+height: 1.5625em;
+width: 1.5625em;
+left: .55em;
+bottom: .06875em;
+background-color: white;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+input:checked+.slider {
+background-color: #8486CB;
+}
+
+input:focus+.slider {
+box-shadow: 0 0 .1875em #8486CB;
+}
+
+input:checked+.slider:before {
+-webkit-transform: translateX(2.1875em);
+-ms-transform: translateX(2.1875em);
+transform: translateX(2.1875em);
+}
+
+.slider:after {
+font-size: 1.2em;
+content: 'OFF';
+color: white;
+display: block;
+position: absolute;
+transform: translate(-50%, -50%);
+top: 50%;
+left: 67%;
+}
+
+input:checked+.slider:after {
+content: 'ON';
+left: 27%;
+}
+
+.slider.round {
+border-radius: 2.1875em;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
+
+.button-disabled{
+margin-left: .3em;
+}
+
+.toggles{
+justify-content: flex-start;
+}
+
+.toggles h3{
+margin-right: 4em;
+}
+
+.setProfile{
+padding-right: 2.3em;
+}

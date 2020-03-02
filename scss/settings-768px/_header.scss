@@ -1,0 +1,33 @@
+/* settings for heading at 768px */
+@media (min-width: 768px) {
+header{
+grid-template-columns: 572px 50px 50px 90px;
+grid-template-rows: auto;
+}
+
+h1{
+margin-top: 1.2em;
+padding-left: -.2em;
+}
+
+.bell-icon {
+margin-left: 2.8em;
+width: 2em;
+}
+
+.vl {
+margin-left: 10.7em;
+margin-top: .3em;
+}
+
+.signedInUserProfilePic {
+margin-left: 1.8em;
+margin-top: .92em;
+}
+
+.signedInUserName {
+margin-left: 1em;
+margin-top: 1.7em;
+}
+
+}

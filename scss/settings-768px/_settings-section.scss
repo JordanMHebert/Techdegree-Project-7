@@ -1,0 +1,27 @@
+/* settings for settings at 768px */
+
+@media (min-width: 768px) {
+.button-primary2,
+.button-disabled{
+max-width: 10.8em;
+margin-left: .5em;
+}
+
+.toggles{
+justify-content: flex-start;
+}
+
+.toggles h3{
+margin-right: 1.5em;
+}
+
+.setProfile{
+padding-right: 2.3em;
+}
+
+.sendEmail,
+.setProfile{
+padding-left: .4em;
+}
+
+}

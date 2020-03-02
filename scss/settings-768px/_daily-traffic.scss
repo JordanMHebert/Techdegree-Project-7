@@ -1,0 +1,23 @@
+/* settings for daily traffic section at 768px */
+@media (min-width: 768px) {
+.midGraphs{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+}
+
+.daily {
+margin-left: .3em;
+}
+
+.daily h3,
+.mobile h3{
+padding-bottom: .8em;
+}
+
+.doughnutGraphPlaceHolder,
+.barGraphPlaceHolder{
+width: 345px;
+height: 200px;
+}
+}

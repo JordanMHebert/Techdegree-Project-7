@@ -1,0 +1,35 @@
+/* settings for settings at 1745px*/
+
+@media (min-width: 1745px) {
+.button-primary2,
+.button-disabled{
+max-width: 20em;
+margin-left: 10em;
+}
+
+.settings{
+margin-left: 30em; 
+}
+
+.button-disabled{
+margin-left: .3em;
+}
+
+.toggles{
+justify-content: flex-start;
+}
+
+.toggles h3{
+margin-right: 4em;
+}
+
+.setProfile{
+padding-right: 2.3em;
+}
+
+.sendEmail,
+.setProfile{
+padding-left: 0em;
+}
+
+}

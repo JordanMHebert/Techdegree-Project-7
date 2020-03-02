@@ -1,0 +1,59 @@
+/* settings for social section at 1745px */
+@media (min-width: 1745px) {
+.social-text {
+margin-left: -2em;
+margin-top: 1em;
+font-size: 1.5em;
+}
+
+.google{
+margin-left: 4em;
+}
+
+.googleNum{
+margin-left: 2.7em;
+}
+
+.socialHeader{
+font-size: 1em;
+margin-left: 5em;
+}
+
+.twitter-container{
+margin-left: 1em;
+}
+
+.facebook-container{
+margin-left: 1em;
+}
+
+.googlePlus-container{
+margin-left: 1em;
+}
+
+.twitter-container,
+.googlePlus-container,
+.facebook-container{
+width: 33em;
+height: 10em;
+}
+
+.social-image{
+margin-left: 7em;
+margin-top: 3em;
+}
+
+.social-image-googlePlus{
+margin-left: 12em;
+margin-top: 3em;
+width: 3em;
+height: 3em;
+}
+
+.social-image-twitter{
+margin-left: 5em;
+margin-top: 3em;
+width: 3em;
+height: 3em;
+}
+}

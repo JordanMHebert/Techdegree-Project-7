@@ -1,0 +1,20 @@
+/* styling for the navigation at 320px*/
+nav {
+background-color: #4B4D72;
+display: grid;
+grid-template-columns: repeat(4, .15fr);
+grid-template-rows: auto;
+padding-left: 5.3125em;
+}
+
+nav img {
+max-width: 1em;
+margin-top: .6em;
+margin-bottom: .2em;
+}
+
+main {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: auto;
+}

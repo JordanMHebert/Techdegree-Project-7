@@ -1,0 +1,25 @@
+/* settings for traffic section at 1032px */
+@media (min-width: 1032px) {
+
+.traffic-header{
+margin-left: .5em;
+}
+
+.traffic-header h3,
+.traffic-nav-link{
+font-size: 1em;
+}
+
+.month{
+margin-right: -3em;
+}
+
+.traffic-nav{
+margin-left: 46.5em;
+}
+
+.lineGraphPlaceHolder{
+width: 900px;
+height: 440px;
+}
+}

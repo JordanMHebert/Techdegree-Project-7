@@ -1,0 +1,16 @@
+/* settings for navigation at 768px */
+@media (min-width: 768px) {
+
+nav {
+display: grid;
+grid-template-columns: 100%;
+grid-template-rows: 45px 45px 45px 45px;
+}
+
+nav img {
+margin-top: 1.2em;
+max-width: 1.1em;
+margin-left: 1.1em;
+}
+
+}
