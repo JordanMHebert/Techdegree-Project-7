@@ -1,20 +1,8 @@
 /* settings for traffic section at 1900px */
 @media (min-width: 1900px) {
 
-.traffic-header{
-@include marginLeftOne;
-}
-
-.month{
-margin-right: -3em;
-}
-
 .traffic-nav{
 margin-left: 113.6em;
 }
 
-.lineGraphPlaceHolder{
-width: 900px;
-height: 440px;
-}
 }

@@ -1,10 +1,6 @@
 /* settings for traffic section at 1032px */
 @media (min-width: 1032px) {
 
-.traffic-header{
-@include marginLeftOne;
-}
-
 .traffic-header h3,
 .traffic-nav-link{
 @include fontSizeOne;
