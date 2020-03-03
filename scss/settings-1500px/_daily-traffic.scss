@@ -1,5 +1,5 @@
-/* settings for daily traffic section at 1396px*/
-@media (min-width: 1396px) {
+/* settings for daily traffic section at 1500px*/
+@media (min-width: 1500px) {
 .midGraphs{
 display: grid;
 grid-template-columns: 50% 50%;
@@ -20,19 +20,19 @@ margin-left: 1em;
 .mobile h3{
 padding-bottom: .8em;
 font-size: 1em;
-margin-left: 20em;
+margin-left: 24.2em;
 width: 10em;
 }
 .doughnutGraphPlaceHolder,
 .barGraphPlaceHolder{
-width: 640px;
-height: 340px;
+width: 710px;
+height: 380px;
 }
 
 .barGraphPlaceHolder{
 margin-left: 1em;
 }
 .doughnutGraphPlaceHolder{
-margin-left: 20em;
+margin-left: 24em;
 }
 }

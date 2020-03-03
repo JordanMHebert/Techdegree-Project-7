@@ -1,12 +1,12 @@
-/* other settings at 1396px*/
+/* other settings at 1900px*/
 
-@media (min-width: 1396px) {
+@media (min-width: 1900px) {
 .traffic, .socialStatusSection {
 grid-column: 1 / span 2;
 }
 }
 
-@media (min-width: 1396px){
+@media (min-width: 1900px){
 .socialStatusSection{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
@@ -16,13 +16,13 @@ padding-top: .8em;
 }
 }
 
-@media (min-width: 1396px) {
+@media (min-width: 1900px) {
 .daily, .members, .message {
 grid-column: 1 / span 1;
 }
 }
 
-@media (min-width: 1396px) {
+@media (min-width: 1900px) {
 .mobile, .activity, .settings {
 grid-column: 2 / span 1;
 }
@@ -32,7 +32,7 @@ width: 95vw;
 }
 }
 
-@media (min-width: 1396px) {
+@media (min-width: 1900px) {
 .widget-container-full {
 width: 90vw;
 }
