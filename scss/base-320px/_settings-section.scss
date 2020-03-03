@@ -1,20 +1,18 @@
 
 /*  styling for the settings section at 320px  */
 .settings {
-display: grid;
-border: .0625em solid #dcdcdc;
+@include grid;
+@include borderOne;
 border-radius: .3125em;
 }
 
 .settingsHeadName {
-font-size: .66em;
-margin-top: 1.7em;
+@include fontSizeThree;
+@include marginTop;
 margin-bottom: .4em;
 margin-left: 1em;
-color: #696969;
-grid-column-start: 1;
-grid-column-end: 2;
-text-transform: uppercase;
+@include colorTwo;
+@include groupOne;
 }
 
 .button-disabled {
@@ -22,16 +20,16 @@ background-color: #B3B3B3;
 border-radius: .4375em;
 width: 20em;
 height: 2.5em;
-color: white;
-font-size: .9em;
-font-family: 'Open Sans';
+@include white;
+@include fontSizeFour;
+@include fontType;
 letter-spacing: .03em;
-margin-left: .5em;
+@include marginLeftOne;
 margin-bottom: .4375em;
 }
 
 .form-field {
-border-radius: .25em;
+@include borderRadius;
 }
 
             /* slider  */
@@ -45,11 +43,12 @@ margin: .625em 0;
 
 .toggles h3 {
 margin: 0;
-font-size: .8em;
-font-weight: lighter;
-font-family: 'Open Sans';
+margin-right: 4em;
+@include fontSizeTwo;
+@include fontWeightLight;
+@include fontType;
 letter-spacing: .03em;
-color: #696969;
+@include colorTwo;
 margin-left: .625em;
 }
 
@@ -68,7 +67,7 @@ height: 0;
 }
 
 .slider {
-position: absolute;
+@include position;
 cursor: pointer;
 top: 0;
 left: 0;
@@ -80,7 +79,7 @@ transition: .4s;
 }
 
 .slider:before {
-position: absolute;
+@include position;
 content: "";
 height: 1.5625em;
 width: 1.5625em;
@@ -108,9 +107,9 @@ transform: translateX(2.1875em);
 .slider:after {
 font-size: 1.2em;
 content: 'OFF';
-color: white;
+@include white;
 display: block;
-position: absolute;
+@include position;
 transform: translate(-50%, -50%);
 top: 50%;
 left: 67%;
@@ -126,7 +125,7 @@ border-radius: 2.1875em;
 }
 
 .slider.round:before {
-border-radius: 50%;
+@include borderRadiusTwo;
 }
 
 .button-disabled{
@@ -137,9 +136,7 @@ margin-left: .3em;
 justify-content: flex-start;
 }
 
-.toggles h3{
-margin-right: 4em;
-}
+
 
 .setProfile{
 padding-right: 2.3em;

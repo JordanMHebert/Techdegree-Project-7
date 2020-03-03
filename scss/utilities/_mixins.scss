@@ -1,3 +1,146 @@
 // =========================================
 //  Mixins
 // =========================================
+
+// grid styles
+@mixin grid{
+  display: grid;
+}
+
+@mixin fullScreen{
+  grid-template-columns: 100%;
+  @include rows;
+}
+
+@mixin rows{
+  grid-template-rows: auto;
+}
+
+@mixin columnStartOne{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+@mixin columnStartTwo{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+@mixin ColumnStartThree{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+@mixin rowStartOne{
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+// no top margin
+@mixin noTop{
+  margin-top: 0px;
+}
+
+// color for header and alert bar
+@mixin colorOne{
+  background-color: #737ABF;
+}
+
+// white
+@mixin white{
+  color: white;
+}
+
+@mixin colorTwo{
+  color: #696969;
+}
+
+
+
+// font styles
+@mixin fontSizeOne{
+  font-size: 1em;
+}
+
+@mixin fontSizeTwo{
+  font-size: .8em;
+}
+
+@mixin fontSizeThree{
+  font-size: .66em;
+}
+
+@mixin fontSizeFour{
+  font-size: .9em;
+}
+
+@mixin letterSpacing{
+  letter-spacing: .07em;
+}
+
+@mixin fontType{
+  font-family: 'Open Sans';
+}
+
+@mixin fontWeightLight{
+  font-weight: lighter;
+}
+
+@mixin fontWeightBold{
+  font-weight: bold;
+}
+
+@mixin textTransform{
+  text-transform: uppercase;
+}
+
+
+// group styles
+
+@mixin groupOne{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-transform: uppercase;
+}
+
+@mixin borderOne{
+  border: .0625em solid #dcdcdc;
+}
+
+// other styles
+
+@mixin borderRadius {
+  border-radius: .25em;
+}
+
+@mixin borderRadiusTwo{
+  border-radius: 50%;
+}
+
+@mixin marginLeftOne{
+  margin-left: .5em;
+}
+
+@mixin marginTop{
+  margin-top: 1.7em;
+}
+
+@mixin marginTopTwo{
+  margin-top: .8em;
+}
+
+@mixin marginBottom{
+  margin-bottom: .5em;
+}
+
+@mixin marginBottomTwo{
+  margin-bottom: .625em;
+}
+
+@mixin maxWidth{
+  max-width: 1.1em;
+}
+
+@mixin position{
+  position: absolute;
+}

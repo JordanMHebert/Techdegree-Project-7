@@ -1,12 +1,6 @@
 /* settings for new members and recent activity at 1500px */
 @media (min-width: 1500px) {
 
-.recentActivity h3,
-.newMembers h3{
-font-size: 1em;
-margin-left: 3.9em;
-}
-
 .newMembers,
 .recentActivity{
   width: 725px;
@@ -29,19 +23,6 @@ font-size: 1.2em;
 
 .members-text{
 margin-left: 3em;
-}
-
-.newMembersName,
-.members-text a{
-font-size: 1em;
-margin-left: 1em;
-width: 18.75em;
-}
-
-.activeMembersName{
-width: 17em;
-font-size: 1em;
-margin-left: 1em;
 }
 
 .timeSinceActivity{

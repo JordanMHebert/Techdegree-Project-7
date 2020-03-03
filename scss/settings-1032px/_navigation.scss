@@ -2,15 +2,15 @@
 @media (min-width: 1032px) {
 
 nav {
-display: grid;
+@include grid;
 grid-template-columns: 100%;
-grid-template-rows: 70px 70px 70px 70px;
+grid-template-rows: repeat(4, 70px);
 }
 
 nav img {
 margin-top: 1.8em;
 max-width: 2em;
-margin-left: .5em;
+@include marginLeftOne;
 }
 
 }

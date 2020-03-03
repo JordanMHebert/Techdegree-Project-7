@@ -2,12 +2,12 @@
 @media (min-width: 1032px) {
 
 .traffic-header{
-margin-left: .5em;
+@include marginLeftOne;
 }
 
 .traffic-header h3,
 .traffic-nav-link{
-font-size: 1em;
+@include fontSizeOne;
 }
 
 .month{

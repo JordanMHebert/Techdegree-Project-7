@@ -2,7 +2,7 @@
 @media (min-width: 768px) {
 
 .traffic-header{
-margin-left: .5em;
+@include marginLeftOne;
 }
 
 .traffic-nav{

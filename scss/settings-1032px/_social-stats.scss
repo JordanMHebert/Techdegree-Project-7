@@ -7,7 +7,7 @@ font-size: 1.5em;
 }
 
 .socialHeader{
-font-size: 1em;
+@include fontSizeOne;
 margin-left: 3em;
 }
 

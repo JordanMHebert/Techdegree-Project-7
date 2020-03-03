@@ -1,7 +1,7 @@
 /* settings for daily traffic section at 768px */
 @media (min-width: 768px) {
 .midGraphs{
-display: grid;
+@include grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr;
 }

@@ -1,45 +1,41 @@
 /* styling for the header at 320px*/
 header {
-background-color: #737ABF;
+@include colorOne;
 margin: 0px 0px;
-display: grid;
-grid-template-columns: 2fr .4fr .4fr 1fr;
-grid-template-rows: auto;
+@include grid;
+grid-template-columns: 2fr repeat(2, .4fr) 1fr;
+@include rows;
 }
 
 h1 {
-color: white;
-font-size: 1em;
-font-family: 'Open Sans';
-font-weight: lighter;
+@include white;
+@include fontSizeOne;
+@include fontType;
+@include fontWeightLight;
 margin-left: 0.90em;
 margin-top: .7em;
-grid-column-start: 1;
-grid-column-end: 2;
+@include columnStartOne;
 }
 
 .your {
-font-weight: bold;
+@include fontWeightBold;
 }
 
 .tradeMark {
-font-size: .9em;
+@include fontSizeFour;
 font-weight: 50;
 }
 
 .bell-icon {
-max-width: 1.1em;
-grid-column-start: 2;
-grid-column-end: 3;
+@include maxWidth;
+@include columnStartTwo;
 margin-top: 41%;
-grid-column-start: 2;
-grid-column-end: 3;
 }
 
 .vl {
 border-left: 0.120em solid #483d8b;
 height: 1.6em;
-position: absolute;
+@include position;
 left: 61%;
 margin-left: -0.1875em;
 top: 1%;
@@ -48,23 +44,20 @@ top: 1%;
 .signedInUserProfilePic {
 max-width: 1.6em;
 max-height: 1.8em;
-border-radius: 50%;
+@include borderRadiusTwo;
 margin-top: 25%;
-grid-column-start: 3;
-grid-column-end: 4;
-grid-row-start: 1;
-grid-row-end: 2;
+@include ColumnStartThree;
+@include rowStartOne;
 }
 
 .signedInUserName {
-color: white;
+@include white;
 font-size: .72em;
-font-family: 'Open Sans';
-font-weight: lighter;
+@include fontType;
+@include fontWeightLight;
 letter-spacing: .03125em;
 margin-top: 17%;
 grid-column-start: 4;
 grid-column-end: 5;
-grid-row-start: 1;
-grid-row-end: 2;
+@include rowStartOne;
 }

@@ -2,9 +2,9 @@
 /* settings for daily traffic section at 1032px */
 @media (min-width: 1032px) {
 .midGraphs{
-display: grid;
+@include grid;
 grid-template-columns: 50% 50%;
-grid-template-rows: auto;
+@include rows;
 }
 
 
@@ -14,13 +14,13 @@ margin-left: .3em;
 
 .daily h3{
 padding-bottom: .8em;
-font-size: 1em;
+@include fontSizeOne;
 margin-left: 1em;
 }
 
 .mobile h3{
 padding-bottom: .8em;
-font-size: 1em;
+@include fontSizeOne;
 margin-left: 9em;
 }
 .doughnutGraphPlaceHolder,

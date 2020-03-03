@@ -9,7 +9,7 @@ margin-top: 1em;
 
 .main-header-search {
 width: 77em;
-margin-left: .5em;
+@include marginLeftOne;
 padding-top: 1em;
 padding-bottom: 2em;
 }

@@ -1,7 +1,7 @@
 /* settings for daily traffic section at 1900px*/
 @media (min-width: 1900px) {
 .midGraphs{
-display: grid;
+@include grid;
 grid-template-columns: 50% 50%;
 grid-template-rows: 1fr;
 }
@@ -10,14 +10,7 @@ grid-template-rows: 1fr;
 margin-left: .3em;
 }
 
-.daily h3{
-padding-bottom: .8em;
-font-size: 1em;
-}
-
 .mobile h3{
-  padding-bottom: .8em;
-  font-size: 1em;
   margin-left: 36em;
 }
 

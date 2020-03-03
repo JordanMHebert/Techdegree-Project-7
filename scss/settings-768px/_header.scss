@@ -2,7 +2,7 @@
 @media (min-width: 768px) {
 header{
 grid-template-columns: 572px 50px 50px 90px;
-grid-template-rows: auto;
+@include rows;
 }
 
 h1{
@@ -27,7 +27,7 @@ margin-top: .92em;
 
 .signedInUserName {
 margin-left: 1em;
-margin-top: 1.7em;
+@include marginTop;
 }
 
 }

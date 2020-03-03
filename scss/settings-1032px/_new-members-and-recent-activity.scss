@@ -3,7 +3,7 @@
 
 .recentActivity h3,
 .newMembers h3{
-font-size: 1em;
+@include fontSizeOne;
 margin-left: 3.9em;
 }
 
@@ -33,14 +33,14 @@ margin-left: 1em;
 
 .newMembersName,
 .members-text a{
-font-size: 1em;
+@include fontSizeOne;
 margin-left: 1em;
 width: 18.75em;
 }
 
 .activeMembersName{
 width: 17em;
-font-size: 1em;
+@include fontSizeOne;
 margin-left: 1em;
 }
 

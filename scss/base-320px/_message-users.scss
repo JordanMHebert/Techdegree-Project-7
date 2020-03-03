@@ -1,18 +1,16 @@
 /*  styling for the message users section at 320px  */
 .message {
-display: grid;
-border: .0625em solid #dcdcdc;
+@include grid;
+@include borderOne;
 }
 
 .message h3 {
-font-size: .66em;
-margin-top: 1.7em;
+@include fontSizeThree;
+@include marginTop;
 margin-bottom: 1.4em;
 margin-left: 1em;
-color: #696969;
-grid-column-start: 1;
-grid-column-end: 2;
-text-transform: uppercase;
+@include colorTwo;
+@include groupOne;
 }
 
 .button-primary,
@@ -21,11 +19,11 @@ background-color: #7275BC;
 border-radius: .4375em;
 width: 20em;
 height: 2.5em;
-color: white;
-font-size: .9em;
-font-family: 'Open Sans';
+@include white;
+@include fontSizeFour;
+@include fontType;
 letter-spacing: .03em;
-margin-left: .5em;
+@include marginLeftOne;
 margin-bottom: .4375em;
 }
 
@@ -33,10 +31,10 @@ margin-bottom: .4375em;
 border-radius: .1875em;
 width: 20em;
 height: 2em;
-margin-left: .5em;
-margin-bottom: .625em;
-font-size: .9em;
-font-family: 'Open Sans';
+@include marginLeftOne;
+@include marginBottomTwo;
+@include fontSizeFour;
+@include fontType;
 letter-spacing: .03em;
 color: grey;
 }
@@ -45,10 +43,10 @@ color: grey;
 border-radius: .1875em;
 width: 20em;
 height: 6em;
-margin-left: .5em;
-margin-bottom: .625em;
-font-size: .9em;
-font-family: 'Open Sans';
+@include marginLeftOne;
+@include marginBottomTwo;
+@include fontSizeFour;
+@include fontType;
 letter-spacing: .03em;
 color: grey;
 }

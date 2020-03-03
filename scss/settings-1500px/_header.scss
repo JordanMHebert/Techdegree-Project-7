@@ -7,11 +7,11 @@
 header{
 width: 94.7em;
 grid-template-columns: 1215.2px 50px 50px 200px;
-grid-template-rows: auto;
+@include rows;
 }
 
 h1{
-margin-top: .8em;
+@include marginTopTwo;
 padding-left: -.2em;
 font-size: 1.3em;
 }
@@ -36,7 +36,7 @@ max-width: 2em;
 .signedInUserName {
 margin-left: 6.7em;
 margin-top: 1.4em;
-font-size: .9em;
+@include fontSizeFour;
 }
 
 }

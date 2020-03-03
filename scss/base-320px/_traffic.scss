@@ -1,29 +1,26 @@
 
 /*  styling for the traffic at 320px  */
 .traffic-header {
-display: grid;
+@include grid;
 grid-template-columns: .5fr 4fr;
-grid-template-rows: auto;
+@include rows;
 }
 
 .traffic-header h3 {
-font-size: .66em;
-margin-top: 1.7em;
+@include fontSizeThree;
+@include marginTop;
 margin-bottom: .8em;
 margin-left: 1em;
-color: #696969;
-grid-column-start: 1;
-grid-column-end: 2;
-text-transform: uppercase;
+@include colorTwo;
+@include groupOne;
 }
 
 .traffic-nav {
-display: grid;
+@include grid;
 grid-template-columns: 50px 50px 55px 50px;
-grid-column-start: 2;
-grid-column-end: 3;
+@include columnStartTwo;
 margin-left: -1.25em;
-font-size: .8em;
+@include fontSizeTwo;
 margin-left: .3125em;
 margin-top: 1.25em;
 }
@@ -32,9 +29,9 @@ margin-top: 1.25em;
 display: flex;
 justify-content: center;
 text-align: center;
-font-size: .8em;
-font-family: 'Open Sans';
-letter-spacing: .07em;
+@include fontSizeTwo;
+@include fontType;
+@include letterSpacing;
 margin-right: .3125em;
 }
 
@@ -46,9 +43,9 @@ border: .1875em solid #94CBAD;
 border-radius: 4.6875em;
 height: 1.5em;
 width: 5em;
-color: white;
+@include white;
 margin-top: -.125em;
-font-weight: bold;
+@include fontWeightBold;
 letter-spacing: .08em;
 }
 

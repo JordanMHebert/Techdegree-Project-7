@@ -1,18 +1,18 @@
 /* styling for the alert bar at 320px */
 .alert {
-display: grid;
+@include grid;
 grid-row-start: 2;
 grid-row-end: 3;
-background-color: #737ABF;
-color: white;
-font-size: .8em;
-font-family: 'Open Sans';
-letter-spacing: .07em;
+@include colorOne;
+@include white;
+@include fontSizeTwo;
+@include fontType;
+@include letterSpacing;
 height: 1.64em;
-border-radius: .25em;
+@include borderRadius;
 }
 
 .alertText {
-margin-left: .5em;
+@include marginLeftOne;
 margin-top: .16em;
 }

@@ -1,47 +1,43 @@
 /*  styling for both the new members and recent activity sections at 320px  */
 .newMembers,
 .recentActivity {
-display: grid;
-border: .0625em solid #dcdcdc;
+@include grid;
+@include borderOne;
 border-radius: .3125em;
 }
 
 .newMembers h3,
 .recentActivity h3 {
-font-size: .66em;
-margin-top: 1.7em;
+@include fontSizeThree;
+@include marginTop;
 margin-bottom: 1.4em;
 margin-left: 1em;
-color: #696969;
-grid-column-start: 1;
-grid-column-end: 2;
-text-transform: uppercase;
+@include colorTwo;
+@include groupOne;
 }
 
 .newMembers-container,
 .recentActivity-container {
-display: grid;
+@include grid;
 grid-template-columns: 49px 198px 60px;
-grid-template-rows: auto;
+@include rows;
 margin-bottom: 1em;
 }
 
 .profile-image {
 width: 2.5em;
-border-radius: 50%;
-grid-column-start: 1;
-grid-column-end: 2;
+@include borderRadiusTwo;
+@include columnStartOne;
 margin-left: .19em;
 }
 
 .members-text {
-grid-column-start: 2;
-grid-column-end: 3;
+@include columnStartTwo;
 }
 
 .newMembersName,
 .timeSinceActivity {
-margin-top: 0px;
+@include noTop;
 margin-bottom: .125em;
 }
 
@@ -55,13 +51,12 @@ margin-top: -1em;
 }
 
 .newMembers-text a {
-font-size: .9em;
+@include fontSizeFour;
 }
 
 .date,
 .arrow {
-grid-column-start: 3;
-grid-column-end: 4;
+@include ColumnStartThree;
 margin-top: .2px;
 }
 
