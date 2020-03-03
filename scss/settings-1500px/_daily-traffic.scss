@@ -1,15 +1,5 @@
 /* settings for daily traffic section at 1500px*/
 @media (min-width: 1500px) {
-.midGraphs{
-@include grid;
-grid-template-columns: 50% 50%;
-@include rows;
-}
-
-
-.daily {
-margin-left: .3em;
-}
 
 .mobile h3{
 margin-left: 24.2em;
@@ -21,9 +11,6 @@ width: 710px;
 height: 380px;
 }
 
-.barGraphPlaceHolder{
-margin-left: 1em;
-}
 .doughnutGraphPlaceHolder{
 margin-left: 24em;
 }

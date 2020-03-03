@@ -7,12 +7,10 @@
 header{
 width: 64em;
 grid-template-columns: 830px 50px 50px 94px;
-@include rows;
 }
 
 h1{
 @include marginTopTwo;
-padding-left: -.2em;
 font-size: 1.3em;
 }
 
@@ -29,7 +27,6 @@ margin-top: .5em;
 
 .signedInUserProfilePic {
 margin-left: .6em;
-margin-top: .92em;
 max-width: 2em;
 }
 

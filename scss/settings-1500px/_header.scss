@@ -7,36 +7,23 @@
 header{
 width: 94.7em;
 grid-template-columns: 1215.2px 50px 50px 200px;
-@include rows;
-}
-
-h1{
-@include marginTopTwo;
-padding-left: -.2em;
-font-size: 1.3em;
 }
 
 .bell-icon {
 margin-left: 6.9em;
-max-width: 1.4em;
 margin-top: 1.2em;
 }
 
 .vl {
 margin-left: 27.2em;
-margin-top: .5em;
 }
 
 .signedInUserProfilePic {
 margin-left: 6.7em;
-margin-top: .92em;
-max-width: 2em;
 }
 
 .signedInUserName {
 margin-left: 6.7em;
-margin-top: 1.4em;
-@include fontSizeFour;
 }
 
 }

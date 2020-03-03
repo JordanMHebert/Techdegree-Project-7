@@ -2,8 +2,8 @@
 @media (min-width: 768px) {
 .midGraphs{
 @include grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr;
+grid-template-columns: 50% 50%;
+@include rows;
 }
 
 .daily {
