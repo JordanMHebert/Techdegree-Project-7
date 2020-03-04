@@ -2,13 +2,13 @@
 @media (min-width: 768px) {
 
 .headline{
-margin-left: 1.1em;
+@include marginLeftEight;
 @include fontSizeOne;
 }
 
 .main-header-search {
 width: 32em;
-margin-left: 1em;
+@include marginLeftTwo;
 }
 
 .main-header-search input{

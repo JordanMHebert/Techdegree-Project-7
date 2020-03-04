@@ -3,7 +3,7 @@
 .socialHeader{
 @include fontSizeThree;
 @include marginTop;
-margin-bottom: .8em;
+@include marginBottomFive;
 @include marginLeftOne;
 @include colorTwo;
 @include groupOne;
@@ -18,14 +18,14 @@ grid-gap: .5em;
 .social-text {
 @include fontSizeTwo;
 @include fontType;
-letter-spacing: .03em;
+@include letterSpacingTwo;
 margin-left: -1.5625em;
 }
 
 .social-numbers {
-font-size: 1.5em;
+@include fontSizeFive;
 @include fontType;
-letter-spacing: .03em;
+@include letterSpacingTwo;
 margin-top: -.9375em;
 }
 
@@ -36,7 +36,7 @@ margin-top: -.9375em;
 grid-template-columns: 1fr 1fr;
 @include rows;
 @include borderOne;
-border-radius: .3125em;
+@include borderRadiusFive;
 }
 
 .social-image-twitter path,
@@ -49,22 +49,22 @@ fill: white;
 }
 
 .social-image{
-margin-left: 2.5em;
-margin-top: .5em;
+@include marginLeftThree;
+@include marginTopFour;
 width: 3.44em;
 height: 3.125em;
-background-color: rgba(112, 112, 164, 1);
+@include backgroundColorTwo;
 border: .1875em solid rgba(112, 112, 164, 1);
 @include borderRadiusTwo;
 }
 
 .social-image-twitter,
 .social-image-googlePlus {
-margin-top: .5em;
-margin-left: 2.8em;
-width: 1.5625em;
-height: 1.5625em;
-background-color: rgba(112, 112, 164, 1);
+@include marginTopFour;
+@include marginLeftFour;
+@include widthThree;
+@include heightFour;
+@include backgroundColorTwo;
 border: 1em solid rgba(112, 112, 164, 1);
 @include borderRadiusTwo;
 }

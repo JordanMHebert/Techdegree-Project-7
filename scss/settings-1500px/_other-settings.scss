@@ -11,8 +11,8 @@ grid-column: 1 / span 2;
 @include grid;
 grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: 1fr;
-padding-bottom: 1em;
-padding-top: .8em;
+@include paddingBottomOne;
+@include paddingTopOne;
 }
 }
 

@@ -4,20 +4,20 @@
 .button-primary2,
 .button-disabled{
 max-width: 15em;
-margin-left: 2em;
+@include marginLeftTen;
 }
 
 .settings{
-  margin-left: 8em;
-  width: 484px;
+  @include marginLeftTwelve;
+  @include widthFive;
 }
 
 .button-disabled{
-margin-left: .3em;
+@include marginLeftSeven;
 }
 
 .toggles h3{
-margin-right: 4em;
+@include marginRightOne;
 }
 
 }

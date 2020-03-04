@@ -7,8 +7,8 @@
 .message h3 {
 @include fontSizeThree;
 @include marginTop;
-margin-bottom: 1.4em;
-margin-left: 1em;
+@include marginBottonThree;
+@include marginLeftTwo;
 @include colorTwo;
 @include groupOne;
 }
@@ -16,37 +16,37 @@ margin-left: 1em;
 .button-primary,
 .button-primary2 {
 background-color: #7275BC;
-border-radius: .4375em;
-width: 20em;
-height: 2.5em;
+@include borderRadiusThree;
+@include widthOne;
+@include heightOne;
 @include white;
 @include fontSizeFour;
 @include fontType;
-letter-spacing: .03em;
+@include letterSpacingTwo;
 @include marginLeftOne;
-margin-bottom: .4375em;
+@include marginBottomFour;
 }
 
 .form-field {
-border-radius: .1875em;
-width: 20em;
+@include borderRadiusFour;
+@include widthOne;
 height: 2em;
 @include marginLeftOne;
 @include marginBottomTwo;
 @include fontSizeFour;
 @include fontType;
-letter-spacing: .03em;
-color: grey;
+@include letterSpacingTwo;
+@include colorThree;
 }
 
 .form-area {
-border-radius: .1875em;
-width: 20em;
+@include borderRadiusFour;
+@include widthOne;
 height: 6em;
 @include marginLeftOne;
 @include marginBottomTwo;
 @include fontSizeFour;
 @include fontType;
-letter-spacing: .03em;
-color: grey;
+@include letterSpacingTwo;
+@include colorThree;
 }

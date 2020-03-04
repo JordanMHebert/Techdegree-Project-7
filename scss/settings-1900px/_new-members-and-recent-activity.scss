@@ -31,7 +31,7 @@ margin-left: 3.6em;
 
 .newMembers-container img,
 .recentActivity-container img{
-margin-left: 4em;
+@include marginLeftEleven;
 }
 
 .newMembers,

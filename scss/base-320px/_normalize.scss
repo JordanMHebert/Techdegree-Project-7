@@ -18,7 +18,7 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0;
+  @include marginZero;
 }
 
 /**
@@ -46,7 +46,7 @@ h1 {
 hr {
   box-sizing: content-box;
   /* 1 */
-  height: 0;
+  @include heightThree;
   /* 1 */
   overflow: visible;
   /* 2 */
@@ -120,8 +120,8 @@ small {
 sub,
 sup {
   font-size: 75%;
-  line-height: 0;
-  position: relative;
+  @include heightThree;
+  @include positionTwo;
   vertical-align: baseline;
 }
 
@@ -159,7 +159,7 @@ textarea {
   /* 1 */
   line-height: 1.15;
   /* 1 */
-  margin: 0;
+  @include marginZero;
   /* 2 */
 }
 
@@ -234,7 +234,7 @@ fieldset {
 //   /* 2 */
 //   display: table;
 //   /* 1 */
-//   max-width: 100%;
+//   max-@include widthTwo;
 //   /* 1 */
 //   padding: 0;
 //   /* 3 */

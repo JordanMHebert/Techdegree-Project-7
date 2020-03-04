@@ -3,7 +3,7 @@
 
 .form-field,
 .form-area{
-margin-left: .8em;
+@include marginLeftSix;
 width: 22em;
 }
 

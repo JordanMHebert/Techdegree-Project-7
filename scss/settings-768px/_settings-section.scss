@@ -16,7 +16,7 @@ margin-right: 1.5em;
 }
 
 .setProfile{
-padding-right: 2.3em;
+@include paddingRightOne;
 }
 
 .sendEmail,

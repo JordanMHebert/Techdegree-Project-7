@@ -2,7 +2,8 @@
 //  Mixins
 // =========================================
 
-// grid styles
+
+// =========== grid styles ==================
 @mixin grid{
   display: grid;
 }
@@ -36,12 +37,8 @@
   grid-row-end: 2;
 }
 
-// no top margin
-@mixin noTop{
-  margin-top: 0px;
-}
 
-// color for header and alert bar
+// ======= color ====================
 @mixin colorOne{
   background-color: #737ABF;
 }
@@ -55,9 +52,20 @@
   color: #696969;
 }
 
+@mixin colorThree{
+  color: grey;
+}
+
+@mixin backgroundColorOne{
+  background-color: #B3B3B3;
+}
+
+@mixin backgroundColorTwo{
+  background-color: rgba(112, 112, 164, 1);
+}
 
 
-// font styles
+// ============ font styles =============
 @mixin fontSizeOne{
   font-size: 1em;
 }
@@ -74,8 +82,16 @@
   font-size: .9em;
 }
 
+@mixin fontSizeFive{
+  font-size: 1.5em;
+}
+
 @mixin letterSpacing{
   letter-spacing: .07em;
+}
+
+@mixin letterSpacingTwo{
+  letter-spacing: .03em;
 }
 
 @mixin fontType{
@@ -95,7 +111,7 @@
 }
 
 
-// group styles
+// ========= group styles ===============
 
 @mixin groupOne{
   grid-column-start: 1;
@@ -103,11 +119,8 @@
   text-transform: uppercase;
 }
 
-@mixin borderOne{
-  border: .0625em solid #dcdcdc;
-}
 
-// other styles
+// ============== border =================
 
 @mixin borderRadius {
   border-radius: .25em;
@@ -117,8 +130,129 @@
   border-radius: 50%;
 }
 
-@mixin marginLeftOne{
-  margin-left: .5em;
+@mixin borderRadiusThree{
+  border-radius: .4375em;
+}
+
+@mixin borderRadiusFour{
+  border-radius: .1875em;
+}
+
+@mixin borderRadiusFive{
+  border-radius: .3125em;
+}
+
+@mixin borderOne{
+  border: .0625em solid #dcdcdc;
+}
+
+
+// ============== width, height, position on page ===============
+@mixin maxWidth{
+  max-width: 1.1em;
+}
+
+@mixin widthOne{
+  width: 20em;
+}
+
+@mixin widthTwo{
+  width: 100%;
+}
+
+@mixin widthThree{
+  width: 1.5625em;
+}
+
+@mixin widthFour{
+  width: 2em;
+}
+
+@mixin widthFive{
+  width: 484px;
+}
+
+@mixin widthSix{
+  width: 13em;
+}
+
+@mixin heightOne{
+  height: 2.5em;
+}
+
+@mixin heightTwo{
+  height: 1.75em;
+}
+
+@mixin heightThree{
+  height: 0;
+}
+
+@mixin heightFour{
+  height: 1.5625em;
+}
+
+@mixin heightFive{
+  height: 1.5em;
+}
+
+@mixin heightSix{
+  height: 2.2em;
+}
+
+@mixin heightSeven{
+  height: 4.5em;
+}
+
+@mixin topZero{
+  top: 0;
+}
+
+@mixin leftZero{
+  left: 0;
+}
+
+@mixin position{
+  position: absolute;
+}
+
+@mixin positionTwo{
+  position: relative;
+}
+
+@mixin flexOne{
+  display: flex;
+}
+
+@mixin opacityOne{
+  opacity: 0;
+}
+
+@mixin textAlignOne{
+  text-align: center;
+}
+
+@mixin paddingBottomOne{
+  padding-bottom: 1em;
+}
+
+@mixin paddingTopOne{
+  padding-top: .8em;
+}
+
+@mixin paddingRightOne{
+    padding-right: 2.3em;
+}
+
+
+// ================ margins ================
+
+@mixin marginZero{
+  margin: 0;
+}
+
+@mixin noTop{
+  margin-top: 0px;
 }
 
 @mixin marginTop{
@@ -129,6 +263,26 @@
   margin-top: .8em;
 }
 
+@mixin marginTopThree{
+  margin-top: .1em;
+}
+
+@mixin marginTopFour{
+  margin-top: .5em;
+}
+
+@mixin marginTopFive{
+  margin-top: 1.2em;
+}
+
+@mixin marginRightOne{
+  margin-right: 4em;
+}
+
+@mixin marginRightTwo{
+  margin-right: .3125em;
+}
+
 @mixin marginBottom{
   margin-bottom: .5em;
 }
@@ -137,10 +291,74 @@
   margin-bottom: .625em;
 }
 
-@mixin maxWidth{
-  max-width: 1.1em;
+@mixin marginBottonThree{
+  margin-bottom: 1.4em;
 }
 
-@mixin position{
-  position: absolute;
+@mixin marginBottomFour{
+  margin-bottom: .4375em;
+}
+
+@mixin marginBottomFive{
+  margin-bottom: .8em;
+}
+
+@mixin marginLeftZero{
+  margin-left: 0em;
+}
+
+@mixin marginLeftOne{
+  margin-left: .5em;
+}
+
+@mixin marginLeftTwo{
+  margin-left: 1em;
+}
+
+@mixin marginLeftThree{
+  margin-left: 2.5em;
+}
+
+@mixin marginLeftFour{
+  margin-left: 2.8em;
+}
+
+@mixin marginLeftFive{
+  margin-left: -1.25em;
+}
+
+@mixin marginLeftSix{
+  margin-left: .8em;
+}
+
+@mixin marginLeftSeven{
+  margin-left: .3em;
+}
+
+@mixin marginLeftEight{
+  margin-left: 1.1em;
+}
+
+@mixin marginLeftNine{
+  margin-left: 1.8em;
+}
+
+@mixin marginLeftTen{
+  margin-left: 2em;
+}
+
+@mixin marginLeftEleven{
+  margin-left: 4em;
+}
+
+@mixin marginLeftTwelve{
+  margin-left: 8em;
+}
+
+@mixin marginLeftThirteen{
+  margin-left: .6em;
+}
+
+@mixin marginLeftFourteen{
+  margin-left: 1.0em;
 }

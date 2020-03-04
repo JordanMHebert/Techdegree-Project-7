@@ -22,16 +22,16 @@ margin-top: 1.4em;
 
 .vl {
 margin-left: 15.7em;
-margin-top: .5em;
+@include marginTopFour;
 }
 
 .signedInUserProfilePic {
-margin-left: .6em;
+@include marginLeftThirteen;
 max-width: 2em;
 }
 
 .signedInUserName {
-margin-left: 0em;
+@include marginLeftZero;
 margin-top: 1.4em;
 @include fontSizeFour;
 }

@@ -5,12 +5,12 @@
 .form-area{
 margin-left: 3em;
 width: 42em;
-height: 2.5em;
+@include heightOne;
 }
 
 .message h3,
 .settings h3{
-margin-left: 2.5em;
+@include marginLeftThree;
 }
 
 .message{

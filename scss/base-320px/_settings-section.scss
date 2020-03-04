@@ -3,29 +3,29 @@
 .settings {
 @include grid;
 @include borderOne;
-border-radius: .3125em;
+@include borderRadiusFive;
 }
 
 .settingsHeadName {
 @include fontSizeThree;
 @include marginTop;
 margin-bottom: .4em;
-margin-left: 1em;
+@include marginLeftTwo;
 @include colorTwo;
 @include groupOne;
 }
 
 .button-disabled {
-background-color: #B3B3B3;
-border-radius: .4375em;
-width: 20em;
-height: 2.5em;
+@include backgroundColorOne;
+@include borderRadiusThree;
+@include widthOne;
+@include heightOne;
 @include white;
 @include fontSizeFour;
 @include fontType;
-letter-spacing: .03em;
+@include letterSpacingTwo;
 @include marginLeftOne;
-margin-bottom: .4375em;
+@include marginBottomFour;
 }
 
 .form-field {
@@ -34,46 +34,46 @@ margin-bottom: .4375em;
 
             /* slider  */
 .toggles {
-display: flex;
+@include flexOne;
 justify-content: space-between;
 align-items: center;
-width: 100%;
+@include widthTwo;
 margin: .625em 0;
 }
 
 .toggles h3 {
-margin: 0;
-margin-right: 4em;
+@include marginZero;
+@include marginRightOne;
 @include fontSizeTwo;
 @include fontWeightLight;
 @include fontType;
-letter-spacing: .03em;
+@include letterSpacingTwo;
 @include colorTwo;
 margin-left: .625em;
 }
 
 .switch {
-position: relative;
+@include positionTwo;
 display: inline-block;
 width: 5.15em;
-height: 1.75em;
-margin-right: .3125em;
+@include heightTwo;
+@include marginRightTwo;
 }
 
 .switch input {
-opacity: 0;
+@include opacityOne;
 width: 0;
-height: 0;
+@include heightThree;
 }
 
 .slider {
 @include position;
 cursor: pointer;
-top: 0;
-left: 0;
+@include topZero;
+@include leftZero;
 right: 0;
 bottom: 0;
-background-color: #B3B3B3;
+@include backgroundColorOne;
 -webkit-transition: .4s;
 transition: .4s;
 }
@@ -81,8 +81,8 @@ transition: .4s;
 .slider:before {
 @include position;
 content: "";
-height: 1.5625em;
-width: 1.5625em;
+@include heightFour;
+@include widthThree;
 left: .55em;
 bottom: .06875em;
 background-color: white;
@@ -129,7 +129,7 @@ border-radius: 2.1875em;
 }
 
 .button-disabled{
-margin-left: .3em;
+@include marginLeftSeven;
 }
 
 .toggles{
@@ -139,5 +139,5 @@ justify-content: flex-start;
 
 
 .setProfile{
-padding-right: 2.3em;
+@include paddingRightOne;
 }

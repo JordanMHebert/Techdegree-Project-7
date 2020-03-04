@@ -9,16 +9,16 @@ margin-left: 3.9em;
 
 .recentActivity,
  .newMembers{
-  width: 484px;
+  @include widthFive;
 }
 
 .recentActivity{
-  margin-left: 8em;
+  @include marginLeftTwelve;
 }
 
 .date {
 margin-left: 7em;
-margin-top: .5em;
+@include marginTopFour;
 font-size: 1.2em;
 }
 
@@ -30,22 +30,22 @@ font-size: 1.2em;
 .newMembersName,
 .members-text a{
 @include fontSizeOne;
-margin-left: 1em;
+@include marginLeftTwo;
 width: 18.75em;
 }
 
 .activeMembersName{
 width: 17em;
 @include fontSizeOne;
-margin-left: 1em;
+@include marginLeftTwo;
 }
 
 .timeSinceActivity{
-margin-left: 1em;
+@include marginLeftTwo;
 }
 
 .newMembers-container img,
 .recentActivity-container img{
-margin-left: 2em;
+@include marginLeftTen;
 }
 }

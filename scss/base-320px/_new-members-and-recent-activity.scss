@@ -3,15 +3,15 @@
 .recentActivity {
 @include grid;
 @include borderOne;
-border-radius: .3125em;
+@include borderRadiusFive;
 }
 
 .newMembers h3,
 .recentActivity h3 {
 @include fontSizeThree;
 @include marginTop;
-margin-bottom: 1.4em;
-margin-left: 1em;
+@include marginBottonThree;
+@include marginLeftTwo;
 @include colorTwo;
 @include groupOne;
 }
@@ -43,7 +43,7 @@ margin-bottom: .125em;
 
 .activeMembersName{
 width: 200px;
-margin-top: .1em;
+@include marginTopThree;
 }
 
 .timeSinceActivity{

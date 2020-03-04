@@ -3,7 +3,7 @@
 
 .main-header-search {
 width: 102.2em;
-margin-left: 0em;
+@include marginLeftZero;
 }
 
 .main-header-search input{

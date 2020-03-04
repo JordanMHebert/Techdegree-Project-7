@@ -2,39 +2,39 @@
 @media (min-width: 768px) {
 .social-text {
 margin-left: -1em;
-margin-top: .5em;
+@include marginTopFour;
 }
 
 .socialHeader{
-  margin-left: 1em;
+  @include marginLeftTwo;
 }
 
 .twitter-container{
-  width: 13em;
-  height: 4.5em;
-  margin-left: .6em;
+  @include widthSix;
+  @include heightSeven;
+  @include marginLeftThirteen;
 }
 
 .googlePlus-container{
-  width: 13em;
-  height: 4.5em;
-  margin-left: 0em;
+  @include widthSix;
+  @include heightSeven;
+  @include marginLeftZero;
 }
 
 
 .facebook-container{
-width: 13em;
-height: 4.5em;
+@include widthSix;
+@include heightSeven;
 margin-left: .2em;
 }
 
 .social-image{
-margin-left: 1.0em;
+@include marginLeftFourteen;
 }
 
 .social-image-twitter,
 .social-image-googlePlus{
-margin-left: 1.0em;
-margin-top: .5em;
+@include marginLeftFourteen;
+@include marginTopFour;
 }
 }

@@ -3,7 +3,7 @@
 .social-text {
 margin-left: -.8em;
 margin-top: .2em;
-font-size: 1.5em;
+@include fontSizeFive;
 }
 
 .socialHeader{
@@ -12,15 +12,15 @@ margin-left: 3em;
 }
 
 .twitter-container{
-margin-left: 1em;
+@include marginLeftTwo;
 }
 
 .facebook-container{
-margin-left: 1em;
+@include marginLeftTwo;
 }
 
 .googlePlus-container{
-margin-left: 1em;
+@include marginLeftTwo;
 }
 
 .twitter-container,
@@ -38,6 +38,6 @@ margin-top: 2em;
 .social-image-googlePlus{
 margin-top: 1.4em;
 width: 2.2em;
-height: 2.2em;
+@include heightSix;
 }
 }

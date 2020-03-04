@@ -7,7 +7,7 @@ grid-template-columns: 50% 50%;
 }
 
 .daily {
-margin-left: .3em;
+@include marginLeftSeven;
 }
 
 .daily h3,

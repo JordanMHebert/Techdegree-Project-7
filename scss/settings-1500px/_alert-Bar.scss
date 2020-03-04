@@ -2,12 +2,12 @@
 @media (min-width: 1500px) {
 
 .alert {
-margin-left: 2em;
+@include marginLeftTen;
 width: 111em;
 }
 
 .alertText {
-margin-left: .8em;
+@include marginLeftSix;
 }
 
 }

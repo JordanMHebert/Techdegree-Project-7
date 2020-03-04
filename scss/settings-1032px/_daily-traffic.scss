@@ -3,7 +3,7 @@
 @media (min-width: 1032px) {
 .daily h3{
 @include fontSizeOne;
-margin-left: 1em;
+@include marginLeftTwo;
 }
 
 .mobile h3{
@@ -17,7 +17,7 @@ height: 250px;
 }
 
 .barGraphPlaceHolder{
-margin-left: 1em;
+@include marginLeftTwo;
 }
 .doughnutGraphPlaceHolder{
 margin-left: 9em;
