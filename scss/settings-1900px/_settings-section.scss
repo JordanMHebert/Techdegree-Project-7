@@ -4,7 +4,7 @@
 .button-primary2,
 .button-disabled{
 @include widthOne;
-margin-left: 10em;
+@include marginLeftSeventeen;
 }
 
 .settings{

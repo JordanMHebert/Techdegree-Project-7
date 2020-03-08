@@ -11,7 +11,7 @@
 @include marginTop;
 margin-bottom: .4em;
 @include marginLeftTwo;
-@include colorTwo;
+@include darkGreyOne;
 @include groupOne;
 }
 
@@ -48,7 +48,7 @@ margin: .625em 0;
 @include fontWeightLight;
 @include fontType;
 @include letterSpacingTwo;
-@include colorTwo;
+@include darkGreyOne;
 margin-left: .625em;
 }
 
@@ -105,7 +105,7 @@ transform: translateX(2.1875em);
 }
 
 .slider:after {
-font-size: 1.2em;
+@include fontSizeSix;
 content: 'OFF';
 @include white;
 display: block;

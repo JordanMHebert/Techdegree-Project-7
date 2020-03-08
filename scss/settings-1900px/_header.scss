@@ -18,7 +18,7 @@ margin-left: 36.2em;
 }
 
 .signedInUserProfilePic {
-margin-left: 3em;
+@include marginLeftEighteen;
 }
 
 .signedInUserName {

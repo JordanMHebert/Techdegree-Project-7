@@ -37,9 +37,14 @@
   grid-row-end: 2;
 }
 
+@mixin columnRepeat{
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
 
 // ======= color ====================
-@mixin colorOne{
+@mixin lightPurple{
   background-color: #737ABF;
 }
 
@@ -48,11 +53,11 @@
   color: white;
 }
 
-@mixin colorTwo{
+@mixin darkGreyOne{
   color: #696969;
 }
 
-@mixin colorThree{
+@mixin darkGreyTwo{
   color: grey;
 }
 
@@ -85,6 +90,15 @@
 @mixin fontSizeFive{
   font-size: 1.5em;
 }
+
+@mixin fontSizeSix{
+  font-size: 1.2em;
+}
+
+@mixin fontSizeSeven{
+  font-size: 1.3em;
+}
+
 
 @mixin letterSpacing{
   letter-spacing: .07em;
@@ -176,6 +190,14 @@
   width: 13em;
 }
 
+@mixin widthSeven{
+  max-width: 2em;
+}
+
+@mixin widthEight{
+  width: 725px;
+}
+
 @mixin heightOne{
   height: 2.5em;
 }
@@ -203,6 +225,11 @@
 @mixin heightSeven{
   height: 4.5em;
 }
+
+@mixin heightEight{
+  height: 3.4em;
+}
+
 
 @mixin topZero{
   top: 0;
@@ -273,6 +300,14 @@
 
 @mixin marginTopFive{
   margin-top: 1.2em;
+}
+
+@mixin marginTopSix{
+  margin-top: 1.4em;
+}
+
+@mixin marginTopSeven{
+  margin-top: 2em;
 }
 
 @mixin marginRightOne{
@@ -361,4 +396,33 @@
 
 @mixin marginLeftFourteen{
   margin-left: 1.0em;
+}
+
+@mixin marginLeftFifteen{
+  margin-left: 9em;
+}
+
+
+@mixin marginLeftSixteen{
+  margin-left: 7em;
+}
+
+@mixin marginLeftSeventeen{
+  margin-left: 10em;
+}
+
+@mixin marginLeftEighteen{
+  margin-left: 3em;
+}
+
+@mixin marginLeftNineteen{
+  margin-left: 6.7em;
+}
+
+@mixin marginLeftTwenty{
+  margin-left: 23em;
+}
+
+@mixin marginLeftTwentyOne{
+  margin-left: 1.5em;
 }

@@ -9,7 +9,7 @@ grid-column: 1 / span 2;
 @media (min-width: 1032px){
 .socialStatusSection{
 @include grid;
-grid-template-columns: 1fr 1fr 1fr;
+@include columnRepeat;
 grid-template-rows: 1fr;
 @include paddingBottomOne;
 @include paddingTopOne;

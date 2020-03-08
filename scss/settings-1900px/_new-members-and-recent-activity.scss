@@ -15,14 +15,14 @@ margin-left: 33em;
 
 .newMembersName,
 .members-text a{
-font-size: 1.2em;
-margin-left: 3em;
+@include fontSizeSix;
+@include marginLeftEighteen;
 }
 
 .activeMembersName{
 width: 31.25em;
-font-size: 1.2em;
-margin-left: 3em;
+@include fontSizeSix;
+@include marginLeftEighteen;
 }
 
 .timeSinceActivity{

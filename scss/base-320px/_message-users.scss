@@ -9,7 +9,7 @@
 @include marginTop;
 @include marginBottonThree;
 @include marginLeftTwo;
-@include colorTwo;
+@include darkGreyOne;
 @include groupOne;
 }
 
@@ -36,7 +36,7 @@ height: 2em;
 @include fontSizeFour;
 @include fontType;
 @include letterSpacingTwo;
-@include colorThree;
+@include darkGreyTwo;
 }
 
 .form-area {
@@ -48,5 +48,5 @@ height: 6em;
 @include fontSizeFour;
 @include fontType;
 @include letterSpacingTwo;
-@include colorThree;
+@include darkGreyTwo;
 }

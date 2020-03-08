@@ -2,7 +2,7 @@
 @media (min-width: 1032px) {
 
 .headline{
-font-size: 1.3em;
+@include fontSizeSeven;
 margin-top: 1em;
 }
 

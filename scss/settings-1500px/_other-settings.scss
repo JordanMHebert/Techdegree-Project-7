@@ -9,35 +9,9 @@ grid-column: 1 / span 2;
 @media (min-width: 1500px){
 .socialStatusSection{
 @include grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 1fr;
+@include columnRepeat;
+@include rows;
 @include paddingBottomOne;
 @include paddingTopOne;
-}
-}
-
-@media (min-width: 1500px) {
-.daily, .members, .message {
-grid-column: 1 / span 1;
-}
-}
-
-@media (min-width: 1500px) {
-.mobile, .activity, .settings {
-grid-column: 2 / span 1;
-}
-
-.widget-container-full, .widget-container-half {
-width: 95vw;
-}
-}
-
-@media (min-width: 1500px) {
-.widget-container-full {
-width: 90vw;
-}
-
-.widget-container-half {
-width: 45vw;
 }
 }

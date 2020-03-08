@@ -4,7 +4,7 @@
 .alert {
 margin-left: 2.01em;
 width: 140.5em;
-height: 3.4em;
+@include heightEight;
 }
 
 }

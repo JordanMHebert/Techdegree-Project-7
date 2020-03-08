@@ -6,7 +6,7 @@
 
 header{
 width: 94.7em;
-grid-template-columns: 1215.2px 50px 50px 200px;
+grid-template-columns: 1215.2px repeat(2, 50px) 200px;
 }
 
 .bell-icon {
@@ -19,11 +19,11 @@ margin-left: 27.2em;
 }
 
 .signedInUserProfilePic {
-margin-left: 6.7em;
+@include marginLeftNineteen;
 }
 
 .signedInUserName {
-margin-left: 6.7em;
+@include marginLeftNineteen;
 }
 
 }

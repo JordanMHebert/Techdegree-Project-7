@@ -17,14 +17,14 @@ margin-left: 3.9em;
 }
 
 .date {
-margin-left: 7em;
+@include marginLeftSixteen;
 @include marginTopFour;
-font-size: 1.2em;
+@include fontSizeSix;
 }
 
 .arrow {
-margin-left: 10em;
-font-size: 1.2em;
+@include marginLeftSeventeen;
+@include fontSizeSix;
 }
 
 .newMembersName,

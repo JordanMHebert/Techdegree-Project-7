@@ -37,7 +37,7 @@ height: 10em;
 }
 
 .social-image{
-margin-left: 7em;
+@include marginLeftSixteen;
 margin-top: 3em;
 }
 

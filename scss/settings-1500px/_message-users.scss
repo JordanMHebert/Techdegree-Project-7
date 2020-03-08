@@ -3,7 +3,7 @@
 
 .form-field,
 .form-area{
-margin-left: 3em;
+@include marginLeftEighteen;
 width: 42em;
 @include heightOne;
 }
@@ -14,11 +14,11 @@ width: 42em;
 }
 
 .message{
-  width: 725px;
+  @include widthEight;
 }
 
 .button-primary{
 width: 42.8em;
-margin-left: 3em;
+@include marginLeftEighteen;
 }
 }

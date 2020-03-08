@@ -15,29 +15,3 @@ grid-template-rows: 1fr;
 @include paddingTopOne;
 }
 }
-
-@media (min-width: 1900px) {
-.daily, .members, .message {
-grid-column: 1 / span 1;
-}
-}
-
-@media (min-width: 1900px) {
-.mobile, .activity, .settings {
-grid-column: 2 / span 1;
-}
-
-.widget-container-full, .widget-container-half {
-width: 95vw;
-}
-}
-
-@media (min-width: 1900px) {
-.widget-container-full {
-width: 90vw;
-}
-
-.widget-container-half {
-width: 45vw;
-}
-}
