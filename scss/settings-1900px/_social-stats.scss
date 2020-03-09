@@ -6,7 +6,7 @@ margin-top: 1.1em;
 }
 
 .google{
-@include marginLeftEleven;
+@include marginLeftFourEm;
 }
 
 .googleNum{
@@ -14,7 +14,7 @@ margin-left: 2.7em;
 }
 
 .socialHeader{
-@include marginLeftTen;
+@include marginLeftTwoEm;
 }
 
 .twitter-container{
@@ -37,7 +37,7 @@ height: 10em;
 }
 
 .social-image{
-@include marginLeftSixteen;
+@include marginLeftSevenEm;
 margin-top: 3em;
 }
 

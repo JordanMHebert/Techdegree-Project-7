@@ -2,21 +2,21 @@
 .main-header {
 @include grid;
 grid-template-columns: .5fr 2fr;
-@include rows;
+@include autoRows;
 grid-gap: .8em;
 }
 
 .headline {
-@include fontSizeFour;
-@include marginTopTwo;
-@include marginBottom;
+@include fontSizePointNineEm;
+@include marginTopPointEightEm;
+@include marginBottomPointFiveEm;
 @include darkGreyOne;
 }
 
 .main-header-search {
 padding-top: .5em;
 padding-left: 4.5em;
-@include borderOne;
-@include marginBottomTwo;
+@include borderPointZerpSixTwoFiveSolid;
+@include marginBottomPointSixTwoFiveEm;
 padding-bottom: .3125em;
 }

@@ -11,7 +11,7 @@ grid-template-columns: 1215.2px repeat(2, 50px) 200px;
 
 .bell-icon {
 margin-left: 6.9em;
-@include marginTopFive;
+@include marginTopOnePointTwoEm;
 }
 
 .vl {
@@ -19,11 +19,11 @@ margin-left: 27.2em;
 }
 
 .signedInUserProfilePic {
-@include marginLeftNineteen;
+@include marginLeftSixPointSevenEm;
 }
 
 .signedInUserName {
-@include marginLeftNineteen;
+@include marginLeftSixPointSevenEm;
 }
 
 }

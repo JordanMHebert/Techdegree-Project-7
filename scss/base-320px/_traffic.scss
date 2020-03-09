@@ -3,14 +3,14 @@
 .traffic-header {
 @include grid;
 grid-template-columns: .5fr 4fr;
-@include rows;
+@include autoRows;
 }
 
 .traffic-header h3 {
-@include fontSizeThree;
-@include marginTop;
-@include marginBottomFive;
-@include marginLeftTwo;
+@include fontSizePointSixSixEm;
+@include marginOnePointSevenEm;
+@include marginBottomPointEightEm;
+@include marginLeftOneEm;
 @include darkGreyOne;
 @include groupOne;
 }
@@ -19,20 +19,20 @@ grid-template-columns: .5fr 4fr;
 @include grid;
 grid-template-columns: repeat(2, 50px)  55px 50px;
 @include columnStartTwo;
-@include marginLeftFive;
-@include fontSizeTwo;
+@include marginLeftNegativeOnePointTwoFiveEm;
+@include fontSizePointEightEm;
 margin-left: .3125em;
 margin-top: 1.25em;
 }
 
 .traffic-nav-link {
-@include flexOne;
+@include flex;
 justify-content: center;
-@include textAlignOne;
-@include fontSizeTwo;
-@include fontType;
-@include letterSpacing;
-@include marginRightTwo;
+@include textAlignCenter;
+@include fontSizePointEightEm;
+@include fontTypeOpenSans;
+@include letterSpacingPointZeroSevenEm;
+@include marginRightPointThreeOneTwoFiveEm;
 }
 
 .weekly {
@@ -41,7 +41,7 @@ margin-left: -.4375em;
 margin-right: .5em;
 border: .1875em solid #94CBAD;
 border-radius: 4.6875em;
-@include heightFive;
+@include heightOnePointFiveEm;
 width: 5em;
 @include white;
 margin-top: -.125em;
@@ -52,5 +52,5 @@ letter-spacing: .08em;
 .lineGraphPlaceHolder,
 .barGraphPlaceHolder,
 .doughnutGraphPlaceHolder {
-@include widthTwo;
+@include widthOneHundPercent;
 }

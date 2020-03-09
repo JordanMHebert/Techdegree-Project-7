@@ -5,15 +5,15 @@ margin-left: -1.8em;
 }
 
 .twitter-container{
-@include marginLeftEighteen;
+@include marginLeftThreeEm;
 }
 
 .facebook-container{
-@include marginLeftTen;
+@include marginLeftTwoEm;
 }
 
 .googlePlus-container{
-@include marginLeftTwentyOne;
+@include marginLeftOnePointFiveEm;
 }
 
 .twitter-container,
@@ -24,16 +24,16 @@ height: 8em;
 }
 
 .social-image{
-@include marginLeftEleven;
-@include marginTopSeven;
+@include marginLeftFourEm;
+@include marginTopTwoEm;
 border: .5em solid rgba(112, 112, 164, 1);
 border-radius: 48%;
 }
 
 .social-image-twitter,
 .social-image-googlePlus{
-@include marginLeftEighteen;
-@include marginTopSeven;
+@include marginLeftThreeEm;
+@include marginTopTwoEm;
 width: 3em;
 height: 3em;
 }

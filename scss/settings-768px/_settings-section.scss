@@ -4,7 +4,7 @@
 .button-primary2,
 .button-disabled{
 max-width: 10.8em;
-@include marginLeftOne;
+@include marginLeftPointFiveEm;
 }
 
 .toggles{
@@ -16,7 +16,7 @@ margin-right: 1.5em;
 }
 
 .setProfile{
-@include paddingRightOne;
+@include paddingRightTwoPointThreeEm;
 }
 
 .sendEmail,

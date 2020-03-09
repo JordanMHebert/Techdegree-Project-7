@@ -30,7 +30,7 @@
   /* Checkbox
  */
   .switch-light {
-    @include positionTwo;
+    @include positionRelative;
     display: block;
     /* simulate default browser focus outlines on the switch,
    * when the inputs are focused.
@@ -85,8 +85,8 @@
   /* don't hide the input from screen-readers and keyboard access
  */
   .switch-light input {
-    @include position;
-    @include opacityOne;
+    @include positionAbsolute;
+    @include opacitZero;
     z-index: 3;
   }
 
@@ -101,7 +101,7 @@
   }
 
   .switch-light>span {
-    @include positionTwo;
+    @include positionRelative;
     overflow: hidden;
     display: block;
     min-height: 2em;
@@ -113,17 +113,17 @@
   }
 
   .switch-light span span {
-    @include positionTwo;
+    @include positionRelative;
     z-index: 2;
     display: block;
     float: left;
     width: 50%;
-    @include textAlignOne;
+    @include textAlignCenter;
     user-select: none;
   }
 
   .switch-light a {
-    @include position;
+    @include positionAbsolute;
     right: 50%;
     @include topZero;
     z-index: 1;
@@ -136,7 +136,7 @@
   /* bootstrap 4 tweaks
 */
   .switch-light.row {
-    @include flexOne;
+    @include flex;
   }
 
   .switch-light .alert-light {
@@ -146,7 +146,7 @@
   /* Radio Switch
  */
   .switch-toggle {
-    @include positionTwo;
+    @include positionRelative;
     display: block;
     /* simulate default browser focus outlines on the switch,
    * when the inputs are focused.
@@ -211,23 +211,23 @@
 
 @media only screen {
   .switch-toggle input {
-    @include position;
+    @include positionAbsolute;
     @include leftZero;
-    @include opacityOne;
+    @include opacitZero;
   }
 
   .switch-toggle input+label {
-    @include positionTwo;
+    @include positionRelative;
     z-index: 2;
     display: block;
     float: left;
     padding: 0 0.5em;
     @include marginZero;
-    @include textAlignOne;
+    @include textAlignCenter;
   }
 
   .switch-toggle a {
-    @include position;
+    @include positionAbsolute;
     @include topZero;
     @include leftZero;
     padding: 0;
@@ -342,7 +342,7 @@
   .switch-toggle.switch-candy label {
     color: #fff;
     @include fontWeightBold;
-    @include textAlignOne;
+    @include textAlignCenter;
     text-shadow: 1px 1px 1px #191b1e;
   }
 
@@ -378,7 +378,7 @@
   .switch-ios.switch-light a {
     @include leftZero;
     @include topZero;
-    @include widthFour;
+    @include widthTwoEm;
     height: 2em;
     background-color: #fff;
     border-radius: 100%;
@@ -388,7 +388,7 @@
 
   .switch-ios.switch-light>span {
     display: block;
-    @include widthTwo;
+    @include widthOneHundPercent;
     height: 2em;
     background-color: #D8D9DB;
     border-radius: 1.75em;
@@ -396,11 +396,11 @@
   }
 
   .switch-ios.switch-light>span span {
-    @include position;
+    @include positionAbsolute;
     @include topZero;
     @include leftZero;
-    @include widthTwo;
-    @include opacityOne;
+    @include widthOneHundPercent;
+    @include opacitZero;
     line-height: 1.875em;
     vertical-align: middle;
     transition: all .2s ease-out;
@@ -427,7 +427,7 @@
   }
 
   .switch-ios.switch-light input:checked~span span:first-of-type {
-    @include opacityOne;
+    @include opacitZero;
   }
 
   .switch-ios.switch-light input:checked~span span:last-of-type {
@@ -467,7 +467,7 @@
     border-radius: 1px;
     box-shadow: inset rgba(0, 0, 0, 0.1) 0 1px 0;
     color: #fff;
-    @include textTransform;
+    @include textTransformUppercase;
   }
 
   .switch-holo label {
@@ -475,7 +475,7 @@
   }
 
   .switch-holo>span span {
-    @include opacityOne;
+    @include opacitZero;
     transition: all 0.1s;
   }
 
@@ -502,7 +502,7 @@
   }
 
   .switch-holo.switch-light input:checked~span span:first-of-type {
-    @include opacityOne;
+    @include opacitZero;
   }
 
   .switch-holo.switch-light input:checked~span span:last-of-type {
@@ -516,8 +516,8 @@
   .switch-light.switch-material a {
     top: -0.1875em;
     width: 1.75em;
-    @include heightTwo;
-    @include borderRadiusTwo;
+    @include heightOnePointSevenFiveEm;
+    @include borderRadiusFiftyPercent;
     background: #fafafa;
     box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.14), 0 0.1875em 0.125em -0.125em rgba(0, 0, 0, 0.2), 0 0.125em 0.25em 0 rgba(0, 0, 0, 0.12);
     transition: right 0.28s cubic-bezier(0.4, 0, 0.2, 1);
@@ -535,17 +535,17 @@
 
   .switch-material.switch-light>span {
     overflow: visible;
-    @include positionTwo;
+    @include positionRelative;
     top: 0.1875em;
     width: 3.25em;
-    @include heightFive;
+    @include heightOnePointFiveEm;
     min-height: auto;
     border-radius: 1em;
     background: rgba(0, 0, 0, 0.26);
   }
 
   .switch-material.switch-light span span {
-    @include position;
+    @include positionAbsolute;
     clip: rect(0 0 0 0);
   }
 
@@ -584,12 +584,12 @@
 
   .switch-toggle.switch-material label {
     color: rgba(0, 0, 0, 0.54);
-    @include fontSizeOne;
+    @include fontSizeOneEm;
   }
 
   .switch-toggle.switch-material label:before {
     content: '';
-    @include position;
+    @include positionAbsolute;
     top: 48%;
     @include leftZero;
     display: block;
@@ -610,7 +610,7 @@
   .switch-light.switch-material>span:after,
   .switch-toggle.switch-material label:after {
     content: '';
-    @include position;
+    @include positionAbsolute;
     @include topZero;
     @include leftZero;
     z-index: 3;
@@ -620,7 +620,7 @@
     border-radius: 100%;
     background: #3f51b5;
     opacity: .4;
-    @include marginLeftFive;
+    @include marginLeftNegativeOnePointTwoFiveEm;
     margin-top: -1.25em;
     transform: scale(0);
     transition: opacity .4s ease-in;
@@ -649,7 +649,7 @@
     }
 
     100% {
-      @include opacityOne;
+      @include opacitZero;
       transform: scale(1);
     }
   }

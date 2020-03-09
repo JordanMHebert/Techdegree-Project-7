@@ -3,17 +3,17 @@
 
 .form-field,
 .form-area{
-@include marginLeftSeventeen;
+@include marginLeftTenEm;
 width: 40em;
 }
 
 .message h3,
 .settings h3{
-@include marginLeftFifteen;
+@include marginLeftNineEm;
 }
 
 .button-primary{
 width: 41em;
-@include marginLeftSeventeen;
+@include marginLeftTenEm;
 }
 }

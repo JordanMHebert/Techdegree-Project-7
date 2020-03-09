@@ -4,14 +4,14 @@ header {
 margin: 0px 0px;
 @include grid;
 grid-template-columns: 2fr repeat(2, .4fr) 1fr;
-@include rows;
+@include autoRows;
 }
 
 h1 {
 @include white;
-@include fontSizeOne;
-@include fontType;
-@include fontWeightLight;
+@include fontSizeOneEm;
+@include fontTypeOpenSans;
+@include fontWeightLighter;
 margin-left: 0.90em;
 margin-top: .7em;
 @include columnStartOne;
@@ -22,12 +22,12 @@ margin-top: .7em;
 }
 
 .tradeMark {
-@include fontSizeFour;
+@include fontSizePointNineEm;
 font-weight: 50;
 }
 
 .bell-icon {
-@include maxWidth;
+@include maxWidthOnePointOneEm;
 @include columnStartTwo;
 margin-top: 41%;
 }
@@ -35,7 +35,7 @@ margin-top: 41%;
 .vl {
 border-left: 0.120em solid #483d8b;
 height: 1.6em;
-@include position;
+@include positionAbsolute;
 left: 61%;
 margin-left: -0.1875em;
 top: 1%;
@@ -44,7 +44,7 @@ top: 1%;
 .signedInUserProfilePic {
 max-width: 1.6em;
 max-height: 1.8em;
-@include borderRadiusTwo;
+@include borderRadiusFiftyPercent;
 margin-top: 25%;
 @include ColumnStartThree;
 @include rowStartOne;
@@ -53,8 +53,8 @@ margin-top: 25%;
 .signedInUserName {
 @include white;
 font-size: .72em;
-@include fontType;
-@include fontWeightLight;
+@include fontTypeOpenSans;
+@include fontWeightLighter;
 letter-spacing: .03125em;
 margin-top: 17%;
 grid-column-start: 4;

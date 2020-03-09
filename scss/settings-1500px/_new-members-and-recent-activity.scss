@@ -3,11 +3,11 @@
 
 .newMembers,
 .recentActivity{
-  @include widthEight;
+  @include widthFortyFivePointThreeOneTwoFiveEm;
 }
 
 .recentActivity{
-  @include marginLeftTwenty;
+  @include marginLeftTwentyThreeEm;
 }
 
 .date {
@@ -19,7 +19,7 @@ margin-left: 20em;
 }
 
 .members-text{
-@include marginLeftEighteen;
+@include marginLeftThreeEm;
 }
 
 .newMembers-container img,

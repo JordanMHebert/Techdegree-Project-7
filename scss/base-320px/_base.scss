@@ -1,8 +1,8 @@
 /* setting up css grid layout */
 body {
 @include grid;
-@include fullScreen;
-@include noTop;
+@include oneFullScreenColumn;
+@include TopZeroPx;
 margin: 0px;
 grid-template-areas:
 "header"

@@ -1,31 +1,31 @@
 
 /*  styling for the social stats at 320px  */
 .socialHeader{
-@include fontSizeThree;
-@include marginTop;
-@include marginBottomFive;
-@include marginLeftOne;
+@include fontSizePointSixSixEm;
+@include marginOnePointSevenEm;
+@include marginBottomPointEightEm;
+@include marginLeftPointFiveEm;
 @include darkGreyOne;
 @include groupOne;
 }
 
 .socialStatusSection {
 @include grid;
-@include fullScreen;
+@include oneFullScreenColumn;
 grid-gap: .5em;
 }
 
 .social-text {
-@include fontSizeTwo;
-@include fontType;
-@include letterSpacingTwo;
+@include fontSizePointEightEm;
+@include fontTypeOpenSans;
+@include letterSpacingPointZeroThreeEm;
 margin-left: -1.5625em;
 }
 
 .social-numbers {
-@include fontSizeFive;
-@include fontType;
-@include letterSpacingTwo;
+@include fontSizeOnePointFiveEm;
+@include fontTypeOpenSans;
+@include letterSpacingPointZeroThreeEm;
 margin-top: -.9375em;
 }
 
@@ -34,9 +34,9 @@ margin-top: -.9375em;
 .facebook-container {
 @include grid;
 grid-template-columns: 1fr 1fr;
-@include rows;
-@include borderOne;
-@include borderRadiusFive;
+@include autoRows;
+@include borderPointZerpSixTwoFiveSolid;
+@include borderRadiusPointThreeOneTwoFiveEm;
 }
 
 .social-image-twitter path,
@@ -49,22 +49,22 @@ fill: white;
 }
 
 .social-image{
-@include marginLeftThree;
-@include marginTopFour;
+@include marginLeftTwoPointFiveEm;
+@include marginTopPointFiveEm;
 width: 3.44em;
 height: 3.125em;
-@include backgroundColorTwo;
+@include darkPurple;
 border: .1875em solid rgba(112, 112, 164, 1);
-@include borderRadiusTwo;
+@include borderRadiusFiftyPercent;
 }
 
 .social-image-twitter,
 .social-image-googlePlus {
-@include marginTopFour;
-@include marginLeftFour;
-@include widthThree;
-@include heightFour;
-@include backgroundColorTwo;
+@include marginTopPointFiveEm;
+@include marginLeftTwoPointEightEm;
+@include widthOnePointFiveSixTwoFiveEm;
+@include heightOnePointFiveSixTwoFiveEm;
+@include darkPurple;
 border: 1em solid rgba(112, 112, 164, 1);
-@include borderRadiusTwo;
+@include borderRadiusFiftyPercent;
 }

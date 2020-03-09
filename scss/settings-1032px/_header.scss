@@ -10,30 +10,30 @@ grid-template-columns: 830px repeat(2, 50px) 94px;
 }
 
 h1{
-@include marginTopTwo;
-@include fontSizeSeven;
+@include marginTopPointEightEm;
+@include fontSizeOnePointThreeEm;
 }
 
 .bell-icon {
 margin-left: 1.4em;
 max-width: 1.4em;
-@include marginTopSix;
+@include marginTopOnePointFourEm;
 }
 
 .vl {
 margin-left: 15.7em;
-@include marginTopFour;
+@include marginTopPointFiveEm;
 }
 
 .signedInUserProfilePic {
-@include marginLeftThirteen;
-@include widthSeven;
+@include marginLeftPointSixEm;
+@include maxWidthTwoEm;
 }
 
 .signedInUserName {
 @include marginLeftZero;
-@include marginTopSix;
-@include fontSizeFour;
+@include marginTopOnePointFourEm;
+@include fontSizePointNineEm;
 }
 
 }

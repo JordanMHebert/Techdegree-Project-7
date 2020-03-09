@@ -2,16 +2,16 @@
 .newMembers,
 .recentActivity {
 @include grid;
-@include borderOne;
-@include borderRadiusFive;
+@include borderPointZerpSixTwoFiveSolid;
+@include borderRadiusPointThreeOneTwoFiveEm;
 }
 
 .newMembers h3,
 .recentActivity h3 {
-@include fontSizeThree;
-@include marginTop;
-@include marginBottonThree;
-@include marginLeftTwo;
+@include fontSizePointSixSixEm;
+@include marginOnePointSevenEm;
+@include marginBottonOnePointFourEm;
+@include marginLeftOneEm;
 @include darkGreyOne;
 @include groupOne;
 }
@@ -20,13 +20,13 @@
 .recentActivity-container {
 @include grid;
 grid-template-columns: 49px 198px 60px;
-@include rows;
+@include autoRows;
 margin-bottom: 1em;
 }
 
 .profile-image {
 width: 2.5em;
-@include borderRadiusTwo;
+@include borderRadiusFiftyPercent;
 @include columnStartOne;
 margin-left: .19em;
 }
@@ -37,13 +37,13 @@ margin-left: .19em;
 
 .newMembersName,
 .timeSinceActivity {
-@include noTop;
+@include TopZeroPx;
 margin-bottom: .125em;
 }
 
 .activeMembersName{
 width: 200px;
-@include marginTopThree;
+@include marginTopPointOneEm;
 }
 
 .timeSinceActivity{
@@ -51,7 +51,7 @@ margin-top: -1em;
 }
 
 .newMembers-text a {
-@include fontSizeFour;
+@include fontSizePointNineEm;
 }
 
 .date,

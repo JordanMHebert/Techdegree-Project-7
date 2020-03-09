@@ -2,19 +2,19 @@
 @media (min-width: 768px) {
 
 .date {
-@include marginLeftTen;
+@include marginLeftTwoEm;
 }
 
 .arrow {
-@include marginLeftEleven;
+@include marginLeftFourEm;
 }
 
 .members-text{
-@include marginLeftTwo;
+@include marginLeftOneEm;
 }
 
 .newMembers-container img,
 .recentActivity-container img{
-@include marginLeftTwo;
+@include marginLeftOneEm;
 }
 }

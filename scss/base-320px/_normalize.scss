@@ -46,7 +46,7 @@ h1 {
 hr {
   box-sizing: content-box;
   /* 1 */
-  @include heightThree;
+  @include heightZero;
   /* 1 */
   overflow: visible;
   /* 2 */
@@ -120,8 +120,8 @@ small {
 sub,
 sup {
   font-size: 75%;
-  @include heightThree;
-  @include positionTwo;
+  @include heightZero;
+  @include positionRelative;
   vertical-align: baseline;
 }
 
@@ -234,7 +234,7 @@ fieldset {
 //   /* 2 */
 //   display: table;
 //   /* 1 */
-//   max-@include widthTwo;
+//   max-@include widthOneHundPercent;
 //   /* 1 */
 //   padding: 0;
 //   /* 3 */

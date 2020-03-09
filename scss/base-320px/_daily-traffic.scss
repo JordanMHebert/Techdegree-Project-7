@@ -1,10 +1,10 @@
 /*  styling for the daily traffic at 320px  */
 .daily h3,
 .mobile h3 {
-@include fontSizeThree;
-@include marginTop;
-@include marginBottom;
-@include marginLeftOne;
+@include fontSizePointSixSixEm;
+@include marginOnePointSevenEm;
+@include marginBottomPointFiveEm;
+@include marginLeftPointFiveEm;
 @include darkGreyOne;
 @include groupOne;
 }

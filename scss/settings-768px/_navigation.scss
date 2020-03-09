@@ -7,9 +7,9 @@ grid-template-rows: repeat(4, 45px);
 }
 
 nav img {
-@include marginTopFive;
-@include maxWidth;
-@include marginLeftEight;
+@include marginTopOnePointTwoEm;
+@include maxWidthOnePointOneEm;
+@include marginLeftOnePointOneEm;
 }
 
 }

@@ -3,11 +3,11 @@
 
 .alert {
 width: 74em;
-@include heightEight;
+@include heightThreePointFourEm;
 }
 
 .alertText {
 margin-top: .70em;
-@include fontSizeSix;
+@include fontSizeOnePointTwoEm;
 }
 }

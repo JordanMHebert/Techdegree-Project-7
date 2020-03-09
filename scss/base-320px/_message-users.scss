@@ -1,14 +1,14 @@
 /*  styling for the message users section at 320px  */
 .message {
 @include grid;
-@include borderOne;
+@include borderPointZerpSixTwoFiveSolid;
 }
 
 .message h3 {
-@include fontSizeThree;
-@include marginTop;
-@include marginBottonThree;
-@include marginLeftTwo;
+@include fontSizePointSixSixEm;
+@include marginOnePointSevenEm;
+@include marginBottonOnePointFourEm;
+@include marginLeftOneEm;
 @include darkGreyOne;
 @include groupOne;
 }
@@ -16,37 +16,37 @@
 .button-primary,
 .button-primary2 {
 background-color: #7275BC;
-@include borderRadiusThree;
-@include widthOne;
-@include heightOne;
+@include borderRadiusPointFourThreeSevenFiveEm;
+@include widthTwentyEm;
+@include heightTwoPointFiveEm;
 @include white;
-@include fontSizeFour;
-@include fontType;
-@include letterSpacingTwo;
-@include marginLeftOne;
-@include marginBottomFour;
+@include fontSizePointNineEm;
+@include fontTypeOpenSans;
+@include letterSpacingPointZeroThreeEm;
+@include marginLeftPointFiveEm;
+@include marginBottomPointFourThreeSevenFiveEm;
 }
 
 .form-field {
-@include borderRadiusFour;
-@include widthOne;
+@include borderRadiusPointOneEightSevenFiveEm;
+@include widthTwentyEm;
 height: 2em;
-@include marginLeftOne;
-@include marginBottomTwo;
-@include fontSizeFour;
-@include fontType;
-@include letterSpacingTwo;
+@include marginLeftPointFiveEm;
+@include marginBottomPointSixTwoFiveEm;
+@include fontSizePointNineEm;
+@include fontTypeOpenSans;
+@include letterSpacingPointZeroThreeEm;
 @include darkGreyTwo;
 }
 
 .form-area {
-@include borderRadiusFour;
-@include widthOne;
+@include borderRadiusPointOneEightSevenFiveEm;
+@include widthTwentyEm;
 height: 6em;
-@include marginLeftOne;
-@include marginBottomTwo;
-@include fontSizeFour;
-@include fontType;
-@include letterSpacingTwo;
+@include marginLeftPointFiveEm;
+@include marginBottomPointSixTwoFiveEm;
+@include fontSizePointNineEm;
+@include fontTypeOpenSans;
+@include letterSpacingPointZeroThreeEm;
 @include darkGreyTwo;
 }

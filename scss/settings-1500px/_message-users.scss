@@ -3,22 +3,22 @@
 
 .form-field,
 .form-area{
-@include marginLeftEighteen;
+@include marginLeftThreeEm;
 width: 42em;
-@include heightOne;
+@include heightTwoPointFiveEm;
 }
 
 .message h3,
 .settings h3{
-@include marginLeftThree;
+@include marginLeftTwoPointFiveEm;
 }
 
 .message{
-  @include widthEight;
+  @include widthFortyFivePointThreeOneTwoFiveEm;
 }
 
 .button-primary{
 width: 42.8em;
-@include marginLeftEighteen;
+@include marginLeftThreeEm;
 }
 }

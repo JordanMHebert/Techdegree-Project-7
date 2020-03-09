@@ -4,11 +4,11 @@
 .alert {
 margin-left: 1.01em;
 width: 53.6em;
-@include heightSix;
+@include heightTwoPointTwoEm;
 }
 
 .alertText {
-@include marginLeftSix;
+@include marginLeftPointEightEm;
 margin-top: .30em;
 }
 }

@@ -5,14 +5,14 @@ grid-row-start: 2;
 grid-row-end: 3;
 @include lightPurple;
 @include white;
-@include fontSizeTwo;
-@include fontType;
-@include letterSpacing;
+@include fontSizePointEightEm;
+@include fontTypeOpenSans;
+@include letterSpacingPointZeroSevenEm;
 height: 1.64em;
-@include borderRadius;
+@include borderRadiusPointTwoFiveEm;
 }
 
 .alertText {
-@include marginLeftOne;
+@include marginLeftPointFiveEm;
 margin-top: .16em;
 }

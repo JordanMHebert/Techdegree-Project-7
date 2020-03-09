@@ -7,8 +7,8 @@ grid-template-rows: repeat(4, 70px);
 
 nav img {
 margin-top: 1.8em;
-@include widthSeven;
-@include marginLeftOne;
+@include maxWidthTwoEm;
+@include marginLeftPointFiveEm;
 }
 
 }

@@ -3,18 +3,18 @@
 
 .form-field,
 .form-area{
-@include marginLeftTen;
+@include marginLeftTwoEm;
 width: 30em;
 }
 
 .message{
-  @include widthFive;
+  @include widthThirtyPointTwoFiveEm;
 }
 
 .message h3,
 .settings h3{
-@include fontSizeOne;
-@include marginLeftTen;
+@include fontSizeOneEm;
+@include marginLeftTwoEm;
 }
 
 .form-area{
@@ -22,6 +22,6 @@ height: 11em;
 }
 .button-primary{
 width: 31em;
-@include marginLeftNine;
+@include marginLefOnePointEightEm;
 }
 }

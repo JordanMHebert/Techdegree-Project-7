@@ -3,11 +3,11 @@
 .midGraphs{
 @include grid;
 grid-template-columns: 50% 50%;
-@include rows;
+@include autoRows;
 }
 
 .daily {
-@include marginLeftSeven;
+@include marginLeftPointThreeEm;
 }
 
 .daily h3,

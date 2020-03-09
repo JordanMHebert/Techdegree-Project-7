@@ -2,7 +2,7 @@
 @media (min-width: 1032px) {
 
 .headline{
-@include fontSizeSeven;
+@include fontSizeOnePointThreeEm;
 margin-top: 1em;
 }
 
@@ -16,7 +16,7 @@ padding-bottom: 2em;
 .main-header-search input{
 margin-left: 20.8em;
 width: 26em;
-@include marginTopThree;
+@include marginTopPointOneEm;
 }
 
 }

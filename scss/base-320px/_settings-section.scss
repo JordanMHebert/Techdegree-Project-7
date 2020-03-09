@@ -2,87 +2,87 @@
 /*  styling for the settings section at 320px  */
 .settings {
 @include grid;
-@include borderOne;
-@include borderRadiusFive;
+@include borderPointZerpSixTwoFiveSolid;
+@include borderRadiusPointThreeOneTwoFiveEm;
 }
 
 .settingsHeadName {
-@include fontSizeThree;
-@include marginTop;
+@include fontSizePointSixSixEm;
+@include marginOnePointSevenEm;
 margin-bottom: .4em;
-@include marginLeftTwo;
+@include marginLeftOneEm;
 @include darkGreyOne;
 @include groupOne;
 }
 
 .button-disabled {
-@include backgroundColorOne;
-@include borderRadiusThree;
-@include widthOne;
-@include heightOne;
+@include lightGrey;
+@include borderRadiusPointFourThreeSevenFiveEm;
+@include widthTwentyEm;
+@include heightTwoPointFiveEm;
 @include white;
-@include fontSizeFour;
-@include fontType;
-@include letterSpacingTwo;
-@include marginLeftOne;
-@include marginBottomFour;
+@include fontSizePointNineEm;
+@include fontTypeOpenSans;
+@include letterSpacingPointZeroThreeEm;
+@include marginLeftPointFiveEm;
+@include marginBottomPointFourThreeSevenFiveEm;
 }
 
 .form-field {
-@include borderRadius;
+@include borderRadiusPointTwoFiveEm;
 }
 
             /* slider  */
 .toggles {
-@include flexOne;
+@include flex;
 justify-content: space-between;
 align-items: center;
-@include widthTwo;
+@include widthOneHundPercent;
 margin: .625em 0;
 }
 
 .toggles h3 {
 @include marginZero;
-@include marginRightOne;
-@include fontSizeTwo;
-@include fontWeightLight;
-@include fontType;
-@include letterSpacingTwo;
+@include marginRightFourEm;
+@include fontSizePointEightEm;
+@include fontWeightLighter;
+@include fontTypeOpenSans;
+@include letterSpacingPointZeroThreeEm;
 @include darkGreyOne;
 margin-left: .625em;
 }
 
 .switch {
-@include positionTwo;
+@include positionRelative;
 display: inline-block;
 width: 5.15em;
-@include heightTwo;
-@include marginRightTwo;
+@include heightOnePointSevenFiveEm;
+@include marginRightPointThreeOneTwoFiveEm;
 }
 
 .switch input {
-@include opacityOne;
+@include opacitZero;
 width: 0;
-@include heightThree;
+@include heightZero;
 }
 
 .slider {
-@include position;
+@include positionAbsolute;
 cursor: pointer;
 @include topZero;
 @include leftZero;
 right: 0;
 bottom: 0;
-@include backgroundColorOne;
+@include lightGrey;
 -webkit-transition: .4s;
 transition: .4s;
 }
 
 .slider:before {
-@include position;
+@include positionAbsolute;
 content: "";
-@include heightFour;
-@include widthThree;
+@include heightOnePointFiveSixTwoFiveEm;
+@include widthOnePointFiveSixTwoFiveEm;
 left: .55em;
 bottom: .06875em;
 background-color: white;
@@ -105,11 +105,11 @@ transform: translateX(2.1875em);
 }
 
 .slider:after {
-@include fontSizeSix;
+@include fontSizeOnePointTwoEm;
 content: 'OFF';
 @include white;
 display: block;
-@include position;
+@include positionAbsolute;
 transform: translate(-50%, -50%);
 top: 50%;
 left: 67%;
@@ -125,11 +125,11 @@ border-radius: 2.1875em;
 }
 
 .slider.round:before {
-@include borderRadiusTwo;
+@include borderRadiusFiftyPercent;
 }
 
 .button-disabled{
-@include marginLeftSeven;
+@include marginLeftPointThreeEm;
 }
 
 .toggles{
@@ -139,5 +139,5 @@ justify-content: flex-start;
 
 
 .setProfile{
-@include paddingRightOne;
+@include paddingRightTwoPointThreeEm;
 }

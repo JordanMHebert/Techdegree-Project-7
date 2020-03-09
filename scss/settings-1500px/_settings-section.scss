@@ -4,16 +4,16 @@
 .button-primary2,
 .button-disabled{
 max-width: 21em;
-@include marginLeftEighteen;
+@include marginLeftThreeEm;
 }
 
 .button-disabled{
-@include marginLeftTwentyOne;
+@include marginLeftOnePointFiveEm;
 }
 
 .settings{
-  @include widthEight;
-  @include marginLeftTwenty;
+  @include widthFortyFivePointThreeOneTwoFiveEm;
+  @include marginLeftTwentyThreeEm;
 }
 
 }

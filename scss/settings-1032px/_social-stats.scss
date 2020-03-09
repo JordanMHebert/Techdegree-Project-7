@@ -3,24 +3,24 @@
 .social-text {
 margin-left: -.8em;
 margin-top: .2em;
-@include fontSizeFive;
+@include fontSizeOnePointFiveEm;
 }
 
 .socialHeader{
-@include fontSizeOne;
-@include marginLeftEighteen;
+@include fontSizeOneEm;
+@include marginLeftThreeEm;
 }
 
 .twitter-container{
-@include marginLeftTwo;
+@include marginLeftOneEm;
 }
 
 .facebook-container{
-@include marginLeftTwo;
+@include marginLeftOneEm;
 }
 
 .googlePlus-container{
-@include marginLeftTwo;
+@include marginLeftOneEm;
 }
 
 .twitter-container,
@@ -31,13 +31,13 @@ height: 7em;
 }
 
 .social-image{
-@include marginTopSeven;
+@include marginTopTwoEm;
 }
 
 .social-image-twitter,
 .social-image-googlePlus{
-@include marginTopSix;
+@include marginTopOnePointFourEm;
 width: 2.2em;
-@include heightSix;
+@include heightTwoPointTwoEm;
 }
 }

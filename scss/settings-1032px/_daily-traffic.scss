@@ -2,13 +2,13 @@
 /* settings for daily traffic section at 1032px */
 @media (min-width: 1032px) {
 .daily h3{
-@include fontSizeOne;
-@include marginLeftTwo;
+@include fontSizeOneEm;
+@include marginLeftOneEm;
 }
 
 .mobile h3{
-@include fontSizeOne;
-@include marginLeftFifteen;
+@include fontSizeOneEm;
+@include marginLeftNineEm;
 }
 .doughnutGraphPlaceHolder,
 .barGraphPlaceHolder{
@@ -17,9 +17,9 @@ height: 250px;
 }
 
 .barGraphPlaceHolder{
-@include marginLeftTwo;
+@include marginLeftOneEm;
 }
 .doughnutGraphPlaceHolder{
-@include marginLeftFifteen;
+@include marginLeftNineEm;
 }
 }

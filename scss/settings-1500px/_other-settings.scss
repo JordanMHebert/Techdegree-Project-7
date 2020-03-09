@@ -9,9 +9,9 @@ grid-column: 1 / span 2;
 @media (min-width: 1500px){
 .socialStatusSection{
 @include grid;
-@include columnRepeat;
-@include rows;
-@include paddingBottomOne;
-@include paddingTopOne;
+@include columnRepeatColumnThreeTimes;
+@include autoRows;
+@include paddingBottomOneEm;
+@include paddingTopPointEightEm;
 }
 }

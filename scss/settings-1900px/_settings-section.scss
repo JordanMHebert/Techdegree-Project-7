@@ -3,8 +3,8 @@
 @media (min-width: 1900px) {
 .button-primary2,
 .button-disabled{
-@include widthOne;
-@include marginLeftSeventeen;
+@include widthTwentyEm;
+@include marginLeftTenEm;
 }
 
 .settings{

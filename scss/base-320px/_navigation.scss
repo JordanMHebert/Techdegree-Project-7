@@ -3,7 +3,7 @@ nav {
 background-color: #4B4D72;
 @include grid;
 grid-template-columns: repeat(4, .15fr);
-@include rows;
+@include autoRows;
 padding-left: 5.3125em;
 }
 
@@ -15,6 +15,6 @@ margin-bottom: .2em;
 
 main {
 @include grid;
-@include fullScreen;
-@include rows;
+@include oneFullScreenColumn;
+@include autoRows;
 }

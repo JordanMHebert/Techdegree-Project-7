@@ -3,49 +3,49 @@
 
 .recentActivity h3,
 .newMembers h3{
-@include fontSizeOne;
+@include fontSizeOneEm;
 margin-left: 3.9em;
 }
 
 .recentActivity,
  .newMembers{
-  @include widthFive;
+  @include widthThirtyPointTwoFiveEm;
 }
 
 .recentActivity{
-  @include marginLeftTwelve;
+  @include marginLeftEightEm;
 }
 
 .date {
-@include marginLeftSixteen;
-@include marginTopFour;
-@include fontSizeSix;
+@include marginLeftSevenEm;
+@include marginTopPointFiveEm;
+@include fontSizeOnePointTwoEm;
 }
 
 .arrow {
-@include marginLeftSeventeen;
-@include fontSizeSix;
+@include marginLeftTenEm;
+@include fontSizeOnePointTwoEm;
 }
 
 .newMembersName,
 .members-text a{
-@include fontSizeOne;
-@include marginLeftTwo;
+@include fontSizeOneEm;
+@include marginLeftOneEm;
 width: 18.75em;
 }
 
 .activeMembersName{
 width: 17em;
-@include fontSizeOne;
-@include marginLeftTwo;
+@include fontSizeOneEm;
+@include marginLeftOneEm;
 }
 
 .timeSinceActivity{
-@include marginLeftTwo;
+@include marginLeftOneEm;
 }
 
 .newMembers-container img,
 .recentActivity-container img{
-@include marginLeftTen;
+@include marginLeftTwoEm;
 }
 }

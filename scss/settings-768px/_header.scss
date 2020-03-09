@@ -5,13 +5,13 @@ grid-template-columns: 572px repeat(2, 50px) 90px;
 }
 
 h1{
-@include marginTopFive;
+@include marginTopOnePointTwoEm;
 padding-left: -.2em;
 }
 
 .bell-icon {
-@include marginLeftFour;
-@include widthFour;
+@include marginLeftTwoPointEightEm;
+@include widthTwoEm;
 }
 
 .vl {
@@ -20,13 +20,13 @@ margin-top: .3em;
 }
 
 .signedInUserProfilePic {
-@include marginLeftNine;
+@include marginLefOnePointEightEm;
 margin-top: .92em;
 }
 
 .signedInUserName {
-@include marginLeftTwo;
-@include marginTop;
+@include marginLeftOneEm;
+@include marginOnePointSevenEm;
 }
 
 }
