@@ -49,8 +49,8 @@ margin-top: -.125em;
 letter-spacing: .08em;
 }
 
-.lineGraphPlaceHolder,
-.barGraphPlaceHolder,
-.doughnutGraphPlaceHolder {
+#traffic-chart,
+#daily-chart,
+#mobile-chart {
 @include widthOneHundPercent;
 }
