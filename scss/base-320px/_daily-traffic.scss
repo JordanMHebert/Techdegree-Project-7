@@ -1,10 +1,15 @@
 /*  styling for the daily traffic at 320px  */
 .daily h3,
 .mobile h3 {
-@include fontSizePointSixSixEm;
+font-size: 0.7em;
 @include marginOnePointSevenEm;
 @include marginBottomPointFiveEm;
 @include marginLeftPointFiveEm;
 @include darkGreyOne;
 @include groupOne;
+height: 2.1875em;
+}
+
+.traffic-header{
+  margin-top: 1.25em;
 }
