@@ -3,11 +3,12 @@
 @include grid;
 grid-template-columns: .5fr 2fr;
 @include autoRows;
-grid-gap: .8em;
+grid-gap: 2em;
 }
 
 .headline {
-@include fontSizePointNineEm;
+font-size: .8em;
+margin-left: .4em;
 @include marginTopPointEightEm;
 @include marginBottomPointFiveEm;
 @include darkGreyOne;
@@ -15,8 +16,10 @@ grid-gap: .8em;
 
 .main-header-search {
 padding-top: .5em;
-padding-left: 4.5em;
-@include borderPointZerpSixTwoFiveSolid;
+padding-left: 5.5em;
+border: .02em solid #dcdcdc;
+max-width: 10.5em;
 @include marginBottomPointSixTwoFiveEm;
 padding-bottom: .3125em;
+font-size: .8em;
 }

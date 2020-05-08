@@ -9,10 +9,17 @@ grid-row-end: 3;
 @include letterSpacingPointZeroSevenEm;
 height: 2.6em;
 font-size: 0.6em;
+max-width: 31em;
+margin-left: .75em;
 @include borderRadiusPointTwoFiveEm;
 }
 
 .alertText {
 @include marginLeftPointFiveEm;
 margin-top: .16em;
+}
+
+.alert-banner-close{
+margin-left: 29.5em;
+margin-top: -2.1em;
 }

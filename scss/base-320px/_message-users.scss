@@ -23,8 +23,12 @@ background-color: #7275BC;
 @include fontSizePointNineEm;
 @include fontTypeOpenSans;
 @include letterSpacingPointZeroThreeEm;
-@include marginLeftPointFiveEm;
+margin-left: .5em;
 @include marginBottomPointFourThreeSevenFiveEm;
+}
+
+#cancel{
+margin-left: .5em;
 }
 
 .form-field {
