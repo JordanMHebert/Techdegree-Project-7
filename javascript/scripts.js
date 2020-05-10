@@ -18,6 +18,14 @@ alertBanner.addEventListener("click", e => {
   }
 });
 
+const bell = document.querySelector(".bell-icon");
+const cross = document.querySelector(".cross");
+bell.addEventListener("click", () => {
+  alertDiv.classList.toggle("alert-message");
+  alertDiv.classList.toggle("alert");
+  cross.classList.toggle("alert");
+});
+
 // Chart Widgets
 
 // traffic chart
