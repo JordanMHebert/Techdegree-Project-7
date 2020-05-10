@@ -1,12 +1,12 @@
-/* other settings at 1032px*/
+/* other settings at 1024px*/
 
-@media (min-width: 1032px) {
+@media (min-width: 1024px) {
 .traffic, .socialStatusSection {
 grid-column: 1 / span 2;
 }
 }
 
-@media (min-width: 1032px){
+@media (min-width: 1024px){
 .socialStatusSection{
 @include grid;
 @include columnRepeatColumnThreeTimes;
@@ -16,13 +16,13 @@ grid-template-rows: 1fr;
 }
 }
 
-@media (min-width: 1032px) {
+@media (min-width: 1024px) {
 .daily, .members, .message {
 grid-column: 1 / span 1;
 }
 }
 
-@media (min-width: 1032px) {
+@media (min-width: 1024px) {
 .mobile, .activity, .settings {
 grid-column: 2 / span 1;
 }
