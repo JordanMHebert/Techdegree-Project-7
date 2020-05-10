@@ -1,14 +1,24 @@
-/* settings for alert bar at 768px */
-@media (min-width: 768px) {
+/* =================================================================================================================== */
+/*                                 media queries at 768px*/
+/* =================================================================================================================== */
 
+/* Alert bar settings for 768px */
+@media (min-width: 768px) {
 .alert {
-margin-left: 1.01em;
-width: 53.6em;
+margin-left: 1.5em;
+max-width: 56.5em;
 @include heightTwoPointTwoEm;
+height: 3em;
+font-size: .75em;
 }
 
-.alertText {
+.alertText{
 @include marginLeftPointEightEm;
 margin-top: .30em;
+}
+
+.alert-banner-close{
+margin-left: 55em;
+margin-top: -2.1em;
 }
 }
