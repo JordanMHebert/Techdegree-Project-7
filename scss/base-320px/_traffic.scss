@@ -49,8 +49,9 @@ margin-top: -.125em;
 letter-spacing: .08em;
 }
 
-#traffic-chart,
-#daily-chart,
-#mobile-chart {
+#traffic-chart{
+@include grid;
+grid-template-columns: auto;
+@include autoRows;  
 @include widthOneHundPercent;
 }

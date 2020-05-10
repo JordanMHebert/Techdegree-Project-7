@@ -2,12 +2,13 @@
 @media (min-width: 1500px) {
 
 .main-header-search {
-width: 77em;
+width: 80em;
+padding-left: 43.2em;
 @include marginLeftPointFiveEm;
 }
 
 .main-header-search input{
-margin-left: 49.5em;
+margin-left: 41.5em;
 }
 
 }

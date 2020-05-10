@@ -15,23 +15,23 @@ h1{
 }
 
 .bell-icon {
-margin-left: 1.4em;
+margin-left: 1em;
 max-width: 1.4em;
 @include marginTopOnePointFourEm;
 }
 
 .vl {
-margin-left: 15.7em;
-@include marginTopPointFiveEm;
+margin-left: 15.1em;
+margin-top: .7em;
 }
 
 .signedInUserProfilePic {
-@include marginLeftPointSixEm;
+margin-left: -.1em;
 @include maxWidthTwoEm;
 }
 
 .signedInUserName {
-@include marginLeftZero;
+margin-left: -1em;
 @include marginTopOnePointFourEm;
 @include fontSizePointNineEm;
 }

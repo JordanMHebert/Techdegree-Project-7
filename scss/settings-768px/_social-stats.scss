@@ -2,7 +2,11 @@
 @media (min-width: 768px) {
 .social-text {
 margin-left: -1em;
-@include marginTopPointFiveEm;
+margin-top: .8em;
+}
+
+.social-numbers{
+  margin-top: -.5em;
 }
 
 .socialHeader{

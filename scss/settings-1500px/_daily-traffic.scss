@@ -2,16 +2,16 @@
 @media (min-width: 1500px) {
 
 .mobile h3{
-margin-left: 24.2em;
+margin-left: 29em;
 width: 10em;
 }
-.doughnutGraphPlaceHolder,
-.barGraphPlaceHolder{
-width: 710px;
-height: 380px;
+
+#daily-chart{
+  margin-left: .9em;
 }
 
-.doughnutGraphPlaceHolder{
-margin-left: 24em;
+#mobile-chart{
+  margin-left: 24em;
 }
+
 }

@@ -8,18 +8,15 @@
 
 .mobile h3{
 @include fontSizeOneEm;
-@include marginLeftNineEm;
-}
-.doughnutGraphPlaceHolder,
-.barGraphPlaceHolder{
-width: 460px;
-height: 250px;
+margin-left: 10em;
 }
 
-.barGraphPlaceHolder{
-@include marginLeftOneEm;
+.widget-container-half{
+width:50vw
 }
-.doughnutGraphPlaceHolder{
-@include marginLeftNineEm;
+
+#mobile-chart{
+  margin-left: 8em;
 }
+
 }

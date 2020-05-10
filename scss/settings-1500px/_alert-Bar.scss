@@ -3,11 +3,15 @@
 
 .alert {
 @include marginLeftTwoEm;
-width: 111em;
+width: 37em;
 }
 
 .alertText {
 @include marginLeftPointEightEm;
 }
 
+.alert-banner-close{
+margin-left: 108em;
+margin-top: -2.1em;
+}
 }

@@ -1,7 +1,7 @@
 /* settings for heading at 768px */
 @media (min-width: 768px) {
 header{
-grid-template-columns: 572px repeat(2, 50px) 90px;
+grid-template-columns: 576px repeat(2, 50px) 90px;
 }
 
 h1{
@@ -16,7 +16,7 @@ padding-left: -.2em;
 
 .vl {
 margin-left: 10.7em;
-margin-top: .3em;
+margin-top: .5em;
 }
 
 .signedInUserProfilePic {

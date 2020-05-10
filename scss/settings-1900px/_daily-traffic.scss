@@ -1,16 +1,20 @@
 /* settings for daily traffic section at 1900px*/
 @media (min-width: 1900px) {
 
-.mobile h3{
-  margin-left: 36em;
+.daily h3{
+  margin-left: 2.7em;
 }
 
-.doughnutGraphPlaceHolder,
-.barGraphPlaceHolder{
-width: 890px;
-height: 450px;
+.mobile h3{
+  margin-left: 41em;
 }
-.doughnutGraphPlaceHolder,{
-  margin-left: 36em;
+
+#daily-chart{
+margin-left: 2em;
 }
+
+#mobile-chart{
+margin-left: 34em;
+}
+
 }

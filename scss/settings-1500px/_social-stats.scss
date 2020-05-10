@@ -4,6 +4,10 @@
 margin-left: -1.8em;
 }
 
+.socialHeader{
+  margin-left: 1.5em;
+}
+
 .twitter-container{
 @include marginLeftThreeEm;
 }
@@ -21,6 +25,7 @@ margin-left: -1.8em;
 .facebook-container{
 width: 27.5em;
 height: 8em;
+margin-left: 1.5em;
 }
 
 .social-image{

@@ -3,8 +3,13 @@
 
 .alert {
 margin-left: 2.01em;
-width: 140.5em;
+width: 67.5em;
 @include heightThreePointFourEm;
+}
+
+.alert-banner-close{
+margin-left: 138.5em;
+margin-top: -2.1em;
 }
 
 }
