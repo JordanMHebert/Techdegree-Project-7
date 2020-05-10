@@ -13,6 +13,10 @@
 @include marginLeftOneEm;
 }
 
+.newMembers h3{
+margin-bottom: -4.5px;
+}
+
 .newMembers-container img,
 .recentActivity-container img{
 @include marginLeftOneEm;

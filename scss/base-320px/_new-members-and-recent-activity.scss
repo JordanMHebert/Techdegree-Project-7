@@ -22,6 +22,7 @@
 grid-template-columns: 49px 198px 60px;
 @include autoRows;
 margin-bottom: 1em;
+border-top: 1px solid #e3e4ec;
 }
 
 .profile-image {
@@ -29,10 +30,12 @@ width: 2.5em;
 @include borderRadiusFiftyPercent;
 @include columnStartOne;
 margin-left: .19em;
+margin-top: .5em;
 }
 
 .members-text {
 @include columnStartTwo;
+margin-top: .5em;
 }
 
 .newMembersName,
@@ -57,10 +60,10 @@ margin-top: -1em;
 .date,
 .arrow {
 @include ColumnStartThree;
-margin-top: .2px;
+margin-top: .5em;
 }
 
 .arrow {
 margin-left: 1.7em;
-margin-top: .01em;
+margin-top: .7em;
 }
