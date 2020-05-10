@@ -2,12 +2,17 @@
 @media (min-width: 1032px) {
 
 .alert {
-width: 74em;
+max-width: 75em;
+padding-right: 74em;
 @include heightThreePointFourEm;
+@include fontSizePointEightEm;
 }
 
 .alertText {
 margin-top: .70em;
-@include fontSizeOnePointTwoEm;
+}
+.alert-banner-close{
+margin-left: 72em;
+margin-top: -2.1em;
 }
 }

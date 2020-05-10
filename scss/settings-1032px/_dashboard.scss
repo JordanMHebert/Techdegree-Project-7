@@ -8,13 +8,15 @@ margin-top: 1em;
 
 .main-header-search {
 width: 47.4em;
+height: 1em;
 margin-left: -.1em;
 padding-top: 1em;
 padding-bottom: 2em;
+padding-right: 17.5em;
 }
 
 .main-header-search input{
-margin-left: 20.8em;
+margin-left: 42.8em;
 width: 26em;
 @include marginTopPointOneEm;
 }

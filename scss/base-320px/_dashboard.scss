@@ -3,7 +3,7 @@
 @include grid;
 grid-template-columns: .5fr 2fr;
 @include autoRows;
-grid-gap: 2em;
+grid-gap: 1em;
 }
 
 .headline {
@@ -18,8 +18,15 @@ margin-left: .4em;
 padding-top: .5em;
 padding-left: 5.5em;
 border: .02em solid #dcdcdc;
-max-width: 10.5em;
+background-color: rgba(220, 220, 220,.25);
+border-radius: .25em;
+max-width: 13em;
 @include marginBottomPointSixTwoFiveEm;
 padding-bottom: .3125em;
 font-size: .8em;
+}
+
+.main-header-search input{
+max-width: 11em;
+margin-left: .9em;
 }
